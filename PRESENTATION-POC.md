@@ -6,11 +6,15 @@
 
 *À l’écran : compte Youssef, vue d’ensemble.*
 
-> « Youssef est agriculteur à Azrou. Avant son prochain projet, il a déjà une histoire : des terres, du matériel, plusieurs campagnes et des échanges avec son conseiller. Comment retrouver cette connaissance et la conserver quand son interlocuteur change ?
+*Dire « 16 ans », marquer une courte pause, puis regarder le comité. Le caractère fictif doit être dit à voix haute.*
+
+> « 16 ans. Dans notre histoire fictive, c’est l’expérience de Youssef, agriculteur à Azrou. Seize années de travail, de saisons difficiles, de décisions et de projets pour faire vivre son exploitation.
 >
-> AgriImpact propose un espace commun pour préparer les projets et assurer la continuité de l’accompagnement.
+> Demain, sa conseillère change. Youssef espère que la personne qui le recevra connaîtra déjà son histoire, les efforts accomplis et ce qui reste à construire.
 >
-> Youssef retrouve son profil, son exploitation et les coordonnées de sa conseillère, Salma. L’import depuis le système existant est représenté ici par des données fictives. S’il souhaite corriger son profil, il demande une modification, que le conseiller valide. »
+> C’est cette continuité qu’AgriImpact veut préserver.
+>
+> Youssef retrouve son profil, son exploitation et les coordonnées de Salma, sa conseillère. L’import du système existant est simulé. Il peut demander une correction de son profil, soumise à validation du conseiller. »
 
 ## 2. Comprendre son exploitation et préparer un projet
 
@@ -44,7 +48,7 @@
 >
 > Ce POC fonctionne hors ligne, avec des données fictives partagées dans un même navigateur ; les connexions réelles restent à construire.
 >
-> La valeur à valider est cette continuité : chaque projet s’appuie sur l’histoire de l’exploitation et l’enrichit pour la suite. Je vous laisse poser vos questions. »
+> L’ambition est que les années de travail de Youssef trouvent leur place dans chaque nouvel accompagnement. Que son prochain conseiller puisse lui dire : “Je connais votre parcours. Préparons la suite.” Je vous laisse poser vos questions. »
 
 **S’arrêter ici. Ne pas dérouler les réponses ci-dessous.**
 
@@ -66,4 +70,5 @@
 - Utiliser le même fichier et le même navigateur pour Youssef et Salma.
 - Préparer une simulation Pommier enregistrée pour envoyer rapidement la demande.
 - Ne montrer que les écrans indiqués ; réserver les autres aux questions.
+- Le chiffre d’ouverture appartient au personnage fictif ; ce n’est pas une statistique sur les agriculteurs ou la banque.
 - Répéter avec un chronomètre. Si nécessaire, rester sur la vue d’ensemble pendant le passage sur l’historique.
