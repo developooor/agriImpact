@@ -2,15 +2,19 @@
 :root{--cam-green:#007732;--cam-green-dark:#005122;--cam-orange:#F76B1C;--cam-body:#4A4A4A;--cam-grey:#7F8C8D;--cam-light-grey:#999999;--cam-border:#DDDDDD;--cam-white:#fff;--cam-bg:#F7F7F7;--cam-green-light:#E8F5EE;--cam-border-green:#B0D4BC;--sem-red:#C0392B;--sem-red-bg:#FADBD8;--sem-amber:#B9770E;--sem-amber-bg:#FFF3E8;--sem-green:#007732;--sem-green-bg:#E8F5E9;--sem-grey-bg:#ECF0F1;--cam-font:Calibri,'Segoe UI',system-ui,Arial,sans-serif;--radius:8px;--radius-lg:14px;--shadow:0 2px 8px #0000000f;--shadow-lg:0 8px 28px #0000001a}*{box-sizing:border-box}body{margin:0;background:var(--cam-bg);color:var(--cam-body);font:16px var(--cam-font)}h1,h2,h3{color:var(--cam-green-dark);margin:0 0 12px}h1{font-size:32px}h2{font-size:22px}p{line-height:1.55}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer;background:var(--cam-green);color:white;border:1px solid transparent;border-radius:8px;padding:10px 15px;font-weight:600}button:hover{background:var(--cam-green-dark)}button:disabled{opacity:.5;cursor:default}.secondary{background:white;border-color:var(--cam-green);color:var(--cam-green)}.danger{background:var(--sem-red)}.danger:hover{background:var(--sem-red-bg);color:var(--sem-red)}:focus-visible{outline:3px solid var(--cam-orange);outline-offset:3px}input,select,textarea{width:100%;min-width:0;padding:11px;border:1px solid var(--cam-border);border-radius:8px;background:white;color:var(--cam-body)}input:focus,textarea:focus,select:focus{outline:2px solid var(--cam-border-green);border-color:var(--cam-green)}label{display:block;font-weight:600;margin:14px 0 6px}textarea{min-height:90px}small,.muted{color:#64716a}.top{background:var(--cam-green);color:white;display:flex;justify-content:space-between;align-items:center;padding:18px 28px;gap:16px}.brand{font-weight:700;font-size:18px;display:flex;gap:12px;align-items:center}.mark{border:2px solid currentColor;border-radius:7px;padding:5px 8px}.top small{color:#e0f0e5}.top .secondary{border-color:white}.account{display:flex;align-items:center;gap:12px}.avatar{background:#ffffff26;border:1px solid #ffffff66;border-radius:50%;width:38px;height:38px;display:grid;place-items:center}.layout{display:grid;grid-template-columns:235px minmax(0,1fr);min-height:calc(100vh - 80px)}nav{background:white;border-right:1px solid var(--cam-border);padding:25px 15px}nav button{display:block;background:none;color:var(--cam-body);text-align:left;width:100%;margin-bottom:7px}nav button.active,nav button:hover{background:var(--cam-green-light);color:var(--cam-green)}main{padding:30px;min-width:0;max-width:1450px;width:100%;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--cam-green);font-weight:bold}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.between{justify-content:space-between}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:18px}.card{background:white;border:1px solid var(--cam-border);border-radius:14px;padding:23px;box-shadow:var(--shadow);margin:18px 0}.grid>.card{margin:0}.hero{background:var(--cam-green-dark);color:white;padding:32px;border-radius:14px;margin:22px 0}.hero h1,.hero h2{color:white}.hero p{color:#d7eade;max-width:720px}.hero .eyebrow{color:#a8d5b8}.info{padding:14px 18px;background:var(--cam-green-light);border-left:5px solid var(--cam-orange);border-radius:6px;margin:15px 0}.badge{display:inline-block;font-size:12px;font-weight:bold;border-radius:20px;padding:5px 10px;background:var(--sem-grey-bg)}.green{background:var(--sem-green-bg);color:var(--cam-green-dark)}.amber{background:var(--sem-amber-bg);color:#885500}.red{background:var(--sem-red-bg);color:var(--sem-red)}.tag{background:var(--cam-green);color:white;padding:4px 8px;font-size:11px;letter-spacing:1px;border-radius:4px}.stat{font-size:29px;color:var(--cam-green-dark);font-weight:bold;margin:8px 0}.table{overflow-x:auto}table{width:100%;border-collapse:collapse;white-space:nowrap}th,td{text-align:left;padding:13px;border-bottom:1px solid var(--cam-border)}th{color:var(--cam-green-dark)}tr:hover{background:var(--cam-green-light)}.split{display:grid;grid-template-columns:1.3fr 1fr;gap:22px}.empty{text-align:center;padding:35px;color:#64716a}.login{max-width:460px;margin:45px auto;padding:0 16px}.login .card{padding:30px}.demo button{margin:4px 0;width:100%;text-align:left;font-size:13px}.check{display:flex;align-items:center;gap:8px}.check input{width:auto}footer{text-align:center;font-size:12px;color:#64716a;padding:25px}#toast{position:fixed;right:20px;top:20px;max-width:calc(100vw - 40px);padding:16px 24px;border-radius:10px;box-shadow:var(--shadow-lg);z-index:100;display:none}dialog{border:0;border-radius:14px;max-width:620px;width:calc(100% - 30px);padding:26px;max-height:90vh;overflow:auto;box-shadow:var(--shadow-lg)}dialog::backdrop{background:#002d1bb3}.burger{display:none}.banner{font-size:12px;background:#eef3ef;text-align:center;padding:8px}.storage{background:#fff3e8;border-bottom:3px solid var(--cam-orange);padding:12px}.docs{border-left:3px solid var(--cam-border-green);padding-left:17px;margin:18px 0}.price{font-size:24px;color:var(--cam-green-dark);font-weight:bold}a{color:var(--cam-green);overflow-wrap:anywhere}.password{display:flex;gap:6px}.password input{flex:1}.password button{padding:8px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.toolbar input,.toolbar select{flex:1;min-width:140px}#app{overflow-wrap:anywhere}@media(max-width:900px){.split{grid-template-columns:1fr}.top{padding:15px}.account .identity{display:none}main{padding:20px}}@media(max-width:767px){.layout{display:block}nav{display:none;position:fixed;left:0;top:76px;bottom:0;width:260px;z-index:40;box-shadow:var(--shadow-lg);overflow:auto}nav.open{display:block}.burger{display:inline-block}.brand{font-size:14px}.top{gap:6px}.account{gap:6px}.avatar{display:none}h1{font-size:26px}.hero{padding:22px}main{padding:16px}.card{padding:18px}.top .secondary{padding:8px}.login{margin-top:24px}}
 
 .accompaniment dt{font-size:12px;font-weight:bold;color:var(--cam-green-dark);margin-top:12px}.accompaniment dd{margin:3px 0;overflow-wrap:anywhere}.workflow{margin-top:18px;border-top:1px solid var(--cam-border);padding-top:16px}.workflow summary{cursor:pointer;color:var(--cam-green);font-weight:bold;min-height:40px;padding:8px 0}.stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:15px 0}.stage{padding:12px;background:var(--sem-grey-bg);border-radius:8px;font-size:13px}.stage.current{background:var(--cam-green-light);border:1px solid var(--cam-green)}.stage.blocked{background:var(--sem-red-bg);border:1px solid var(--sem-red)}.blocker{border-left:4px solid var(--sem-red);background:var(--sem-red-bg);padding:12px;border-radius:6px}.filters button[aria-pressed=true]{background:var(--cam-green-dark);color:white}.event{border-left:2px solid var(--cam-border-green);padding:5px 0 12px 14px;margin:10px 0}
+
+.language-control{display:flex;align-items:center;gap:10px;max-width:100%;margin-block:8px}.language-control label{margin:0;font-size:13px;white-space:nowrap}.language-control select{width:auto;max-width:245px;font-size:14px;padding:8px}.top{flex-wrap:wrap}.top .language-control{margin-inline-start:auto}.top .language-control label{color:white}dialog .language-control{padding-top:12px;border-top:1px solid var(--cam-border)}[dir=rtl] body{font-family:'Segoe UI',Tahoma,Arial,sans-serif}[dir=rtl] nav{border-right:0;border-left:1px solid var(--cam-border)}[dir=rtl] nav button,[dir=rtl] .demo button,[dir=rtl] th,[dir=rtl] td{text-align:right}[dir=rtl] .info{border-left:0;border-right:5px solid var(--cam-orange)}[dir=rtl] .docs,[dir=rtl] .event{border-left:0;border-right:2px solid var(--cam-border-green);padding-left:0;padding-right:17px}[dir=rtl] .blocker{border-left:0;border-right:4px solid var(--sem-red)}[dir=rtl] .eyebrow,[dir=rtl] .tag{letter-spacing:0}[dir=rtl] #toast{right:auto;left:20px}[data-user-text]{unicode-bidi:isolate}input[type=email],input[type=tel],input[type=number],input[type=password],input[type=date]{direction:ltr;unicode-bidi:plaintext}td,dd,.demo button{unicode-bidi:plaintext}@media(max-width:767px){nav{top:var(--nav-top,76px)}[dir=rtl] nav{left:auto;right:0}.top .language-control{width:100%;justify-content:space-between;margin:0}.language-control select{max-width:215px}.top .brand{flex:1}.top .language-control label{font-size:12px}}
 </style></head><body><div id="storage"></div><div id="app"></div><div id="toast" role="status" aria-live="polite"></div><dialog id="modal" aria-labelledby="modalTitle"></dialog><input type="file" id="importFile" accept=".json,application/json" hidden><script>
 'use strict';
+const LANGUAGE_KEY='cam_agriimpact_preferences_language';let currentLanguage='fr';try{if(localStorage.getItem(LANGUAGE_KEY)==='ary')currentLanguage='ary'}catch{}
 let NS='cam_agriimpact_';const VERSION=1,preservedStores=[];let historyScope='both',simulationDraft=null,memory={},fallback=false,n=0,page='home',category='Tous',search='',selectedProject='',result=null,activeFarmer='f1',modalCleanup=null;
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>globalThis.crypto?.randomUUID?crypto.randomUUID():'id-'+Date.now()+'-'+n++,money=v=>new Intl.NumberFormat('fr-MA',{style:'currency',currency:'MAD',maximumFractionDigits:0}).format(v),date=v=>v?new Date(v+'T12:00:00').toLocaleDateString('fr-FR'):'—',today=()=>new Date().toLocaleDateString('sv-SE'),roles={admin:'Administrateur',conseiller:'Conseiller',agriculteur:'Agriculteur'};
+function userText(value,demo=false){return '<span '+(demo?'data-demo-text':'data-user-text')+' dir="auto">'+esc(value)+'</span>'}
 function warnStorage(){fallback=true;$('#storage').innerHTML='<div class="storage">Stockage navigateur indisponible — vos données ne seront pas conservées. Recommandé : Chrome/Edge, hors navigation privée.</div>'}
 try{localStorage.setItem(NS+'probe','1');if(localStorage.getItem(NS+'probe')!=='1')throw Error();localStorage.removeItem(NS+'probe')}catch{warnStorage()}
 // Couche données : JSON protégé ; bascule mémoire si le stockage devient indisponible.
 const db={get(k,def=null){let raw=fallback?memory[NS+k]:localStorage.getItem(NS+k);try{return raw==null?def:JSON.parse(raw)}catch{toast('Données illisibles : exportez une sauvegarde avant de réinitialiser.',true);return def}},set(k,v){let raw=JSON.stringify(v);if(fallback){memory[NS+k]=raw;return true}try{localStorage.setItem(NS+k,raw);return true}catch{toast('Enregistrement impossible : espace navigateur insuffisant. Exportez vos données.',true);return false}},list(k){return this.get(k,[])},upsert(k,v){let a=this.list(k),i=a.findIndex(x=>x.id===v.id);i<0?a.push(v):a[i]=v;return this.set(k,a)},remove(k,i){return this.set(k,this.list(k).filter(x=>x.id!==i))}};
-function storageKeys(prefix=NS){return (fallback?Object.keys(memory):Object.keys(localStorage)).filter(k=>k.startsWith(prefix))}
+function storageKeys(prefix=NS){return (fallback?Object.keys(memory):Object.keys(localStorage)).filter(k=>k.startsWith(prefix)&&k!==LANGUAGE_KEY)}
 function keys(){return storageKeys()}
 // Les anciennes éditions peuvent partager le même stockage file:// avec un autre schéma.
 // Ne jamais écraser ces données : choisir un espace indépendant et proposer leur sauvegarde.
@@ -41,21 +45,21 @@ function closeModal(){$('#modal').close();if(modalCleanup){modalCleanup();modalC
 function field(name,label,value='',type='text',required=false){return '<label for="'+name+'">'+esc(label)+(required?' *':'')+'</label><input id="'+name+'" name="'+name+'" type="'+type+'" '+(type==='number'?'step="any" min="0"':'')+' value="'+esc(value)+'" '+(required?'required':'')+'>'}function select(name,label,options,value){return '<label for="'+name+'">'+esc(label)+'</label><select id="'+name+'" name="'+name+'">'+options.map(x=>{let a=Array.isArray(x)?x:[x,x];return '<option value="'+esc(a[0])+'" '+(a[0]===value?'selected':'')+'>'+esc(a[1])+'</option>'}).join('')+'</select>'}function textfield(name,label,value=''){return '<label for="'+name+'">'+esc(label)+'</label><textarea id="'+name+'" name="'+name+'" required>'+esc(value)+'</textarea>'}function submit(label){return '<p><button type="submit">'+label+'</button></p>'}function badge(s){return '<span class="badge '+(s==='Terminée'||s==='Validée'?'green':s==='Vigilance'||s==='Refusée'?'red':'amber')+'">'+esc(s)+'</span>'}
 function footer(){return '<footer>Crédit Agricole du Maroc — POC confidentiel — Programme Intrapreneuriat</footer>'}function exportData(){let data={};keys().forEach(k=>{if(!k.endsWith('_session'))data[k]=fallback?JSON.parse(memory[k]):JSON.parse(localStorage.getItem(k))});download(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),'agriimpact-export-'+today().split('-').reverse().join('')+'.json')}
 function download(blob,name){let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
-function render(){const u=user();if(!u){login();return}let f=farmer();if(f)activeFarmer=f.id;const nav=[['home','Vue d’ensemble'],['history','Historique d’exploitation'],['bank','Banque de projets'],['simulations','Mes simulations'],['accompaniment',can('conseiller')?'Demandes reçues':can('agriculteur')?'Mes demandes d’accompagnement':'Demandes d’accompagnement'],['docs','Dossier documentaire'],['expertise','Expertise partagée'],['trainings','Formations'],['aids','Subventions'],['profile','Mon profil']];if(can('conseiller','admin'))nav.push(['requests','Modifications de profil']);if(can('admin'))nav.push(['users','Utilisateurs'],['data','Outils de données']);$('#app').innerHTML='<header class="top"><div class="row"><button class="burger" data-act="menu" aria-label="Ouvrir le menu" aria-expanded="false">☰</button><div class="brand"><span class="mark">CA</span><span>Crédit Agricole du Maroc<br><small>AgriImpact · Cultivons vos projets</small></span></div></div><div class="account"><span class="avatar">'+esc(u.nom.split(' ').map(x=>x[0]).slice(0,2).join(''))+'</span><div class="identity">'+esc(u.nom)+'<br><small>'+roles[u.role]+' · '+esc(u.direction)+'</small></div><button class="secondary" data-act="logout">Déconnexion</button></div></header><div class="banner">Données de démonstration fictives · Prototype local hors ligne</div><div class="layout"><nav aria-label="Navigation principale">'+nav.map(([key,label])=>'<button data-page="'+key+'" class="'+(key===page?'active':'')+'" '+(key===page?'aria-current="page"':'')+'>'+esc(label)+(key==='accompaniment'&&can('conseiller')?' <span class="badge amber" aria-label="Demandes à prendre en charge">'+visibleAccompaniments().filter(r=>r.status==='Envoyée à l’agence').length+'</span>':'')+'</button>').join('')+'</nav><main>'+(can('conseiller','admin')&&f?'<div class="row between"><span class="eyebrow">Espace '+roles[u.role]+'</span><div><label for="farmerSelect">Exploitation consultée</label><select id="farmerSelect">'+farmerList().map(x=>'<option value="'+x.id+'" '+(x.id===f.id?'selected':'')+'>'+esc(x.nom)+' · '+esc(x.commune)+'</option>').join('')+'</select></div></div>':'')+(legacy?'<div class="info">Données anciennes détectées : elles ont été conservées. <button data-act="backup">Exporter une sauvegarde</button></div>':'')+preservedNotice()+content()+footer()+'</main></div>';if(page==='simulate'&&simulationDraft){Object.entries(simulationDraft).forEach(([key,value])=>{const el=document.getElementById(key);if(el?.closest('#simulationForm'))el.value=value})}}
-function login(){$('#app').innerHTML='<header class="top"><div class="brand"><span class="mark">CA</span>Crédit Agricole du Maroc</div></header><section class="login">'+preservedNotice()+'<p class="eyebrow">Accompagner aujourd’hui. Transmettre demain.</p><h1>Bienvenue sur AgriImpact</h1><p class="muted">Votre exploitation, vos projets et le savoir qui les fait grandir.</p><div class="card" style="border-top:4px solid var(--cam-green)"><h2>Se connecter</h2><form id="loginForm">'+field('email','Adresse email','','email',true)+'<label for="password">Mot de passe *</label><div class="password"><input id="password" name="password" type="password" required><button type="button" class="secondary" data-act="password" aria-label="Afficher le mot de passe">Afficher</button></div><label class="check"><input name="remember" type="checkbox">Se souvenir de moi</label><p id="loginError" class="red" role="alert"></p>'+submit('Se connecter')+'</form></div><div class="card demo"><h3>Comptes de démonstration</h3><p><small>Choisissez un compte pour ouvrir directement son espace de démonstration, sans saisir de mot de passe. Le formulaire ci-dessus reste disponible pour une connexion manuelle.</small></p>'+db.list('users').filter(x=>x.actif&&['u1','c1','c2','c3','a1'].includes(x.id)).map(u=>'<button class="secondary" data-act="demo" data-id="'+u.id+'">'+'Ouvrir : '+roles[u.role]+' · '+esc(u.nom)+' · '+esc(u.email)+'</button>').join('')+'<p><small>Personnes fictives. Aucun accès à un système bancaire réel.</small></p>'+(legacy?'<button data-act="backup">Exporter les données existantes</button>':'')+'</div>'+footer()+'</section>'}
+function render(){const u=user();if(!u){login();return}let f=farmer();if(f)activeFarmer=f.id;const nav=[['home','Vue d’ensemble'],['history','Historique d’exploitation'],['bank','Banque de projets'],['simulations','Mes simulations'],['accompaniment',can('conseiller')?'Demandes reçues':can('agriculteur')?'Mes demandes d’accompagnement':'Demandes d’accompagnement'],['docs','Dossier documentaire'],['expertise','Expertise partagée'],['trainings','Formations'],['aids','Subventions'],['profile','Mon profil']];if(can('conseiller','admin'))nav.push(['requests','Modifications de profil']);if(can('admin'))nav.push(['users','Utilisateurs'],['data','Outils de données']);$('#app').innerHTML='<header class="top"><div class="row"><button class="burger" data-act="menu" aria-label="Ouvrir le menu" aria-expanded="false">☰</button><div class="brand"><span class="mark">CA</span><span>Crédit Agricole du Maroc<br><small>AgriImpact · Cultivons vos projets</small></span></div></div><div class="account"><span class="avatar">'+esc(u.nom.split(' ').map(x=>x[0]).slice(0,2).join(''))+'</span><div class="identity">'+userText(u.nom)+'<br><small>'+roles[u.role]+' · '+userText(u.direction)+'</small></div><button class="secondary" data-act="logout">Déconnexion</button></div></header><div class="banner">Données de démonstration fictives · Prototype local hors ligne</div><div class="layout"><nav aria-label="Navigation principale">'+nav.map(([key,label])=>'<button data-page="'+key+'" class="'+(key===page?'active':'')+'" '+(key===page?'aria-current="page"':'')+'>'+esc(label)+(key==='accompaniment'&&can('conseiller')?' <span class="badge amber" aria-label="Demandes à prendre en charge">'+visibleAccompaniments().filter(r=>r.status==='Envoyée à l’agence').length+'</span>':'')+'</button>').join('')+'</nav><main>'+(can('conseiller','admin')&&f?'<div class="row between"><span class="eyebrow">Espace '+roles[u.role]+'</span><div><label for="farmerSelect">Exploitation consultée</label><select id="farmerSelect">'+farmerList().map(x=>'<option value="'+x.id+'" '+(x.id===f.id?'selected':'')+'>'+esc(x.nom)+' · '+esc(x.commune)+'</option>').join('')+'</select></div></div>':'')+(legacy?'<div class="info">Données anciennes détectées : elles ont été conservées. <button data-act="backup">Exporter une sauvegarde</button></div>':'')+preservedNotice()+content()+footer()+'</main></div>';if(page==='simulate'&&simulationDraft){Object.entries(simulationDraft).forEach(([key,value])=>{const el=document.getElementById(key);if(el?.closest('#simulationForm'))el.value=value})}}
+function login(){$('#app').innerHTML='<header class="top"><div class="brand"><span class="mark">CA</span>Crédit Agricole du Maroc</div></header><section class="login">'+preservedNotice()+'<p class="eyebrow">Accompagner aujourd’hui. Transmettre demain.</p><h1>Bienvenue sur AgriImpact</h1><p class="muted">Votre exploitation, vos projets et le savoir qui les fait grandir.</p><div class="card" style="border-top:4px solid var(--cam-green)"><h2>Se connecter</h2><form id="loginForm">'+field('email','Adresse email','','email',true)+'<label for="password">Mot de passe *</label><div class="password"><input id="password" name="password" type="password" required><button type="button" class="secondary" data-act="password" aria-label="Afficher le mot de passe">Afficher</button></div><label class="check"><input name="remember" type="checkbox">Se souvenir de moi</label><p id="loginError" class="red" role="alert"></p>'+submit('Se connecter')+'</form></div><div class="card demo"><h3>Comptes de démonstration</h3><p><small>Choisissez un compte pour ouvrir directement son espace de démonstration, sans saisir de mot de passe. Le formulaire ci-dessus reste disponible pour une connexion manuelle.</small></p>'+db.list('users').filter(x=>x.actif&&['u1','c1','c2','c3','a1'].includes(x.id)).map(u=>'<button class="secondary" data-act="demo" data-id="'+u.id+'">'+'Ouvrir : '+roles[u.role]+' · '+userText(u.nom)+' · '+userText(u.email)+'</button>').join('')+'<p><small>Personnes fictives. Aucun accès à un système bancaire réel.</small></p>'+(legacy?'<button data-act="backup">Exporter les données existantes</button>':'')+'</div>'+footer()+'</section>'}
 function content(){let f=farmer();switch(page){case'home':return home(f);case'history':return history(f);case'bank':return bank();case'simulate':return simulator();case'simulations':return simulations();case'accompaniment':return accompanimentRequests();case'docs':return documents(f);case'expertise':return expertise();case'trainings':return trainings();case'aids':return aids();case'profile':return profile();case'requests':return requests();case'users':return users();case'data':return dataView();default:return home(f)}}
 function accompaniment(f){
  const u=db.list('users').find(u=>u.id===f.conseiller),demo={c1:['Agence agricole Azrou','Azrou · Fès-Meknès','salma.bennani@example.invalid','06 XX XX XX 01'],c2:['Agence agricole Taroudant','Taroudant · Souss-Massa','karim.idrissi@example.invalid','06 XX XX XX 02'],c3:['Agence agricole Berkane','Berkane · Oriental','hajar.tazi@example.invalid','06 XX XX XX 03']}[f.conseiller];
  const value=(key,index)=>u?.[key]||demo?.[index]||'À renseigner';
- return '<div class="card accompaniment"><span class="eyebrow">Votre accompagnateur</span><h2 style="margin-top:12px">'+esc(author(f.conseiller))+'</h2><dl><dt>Agence</dt><dd>'+esc(value('agencyName',0))+'</dd><dt>Emplacement</dt><dd>'+esc(value('agencyLocation',1))+'</dd><dt>Email</dt><dd>'+esc(value('contactEmail',2))+'</dd><dt>Téléphone</dt><dd>'+esc(value('contactPhone',3))+'</dd><dt>WhatsApp</dt><dd>'+esc(u?.whatsapp||value('contactPhone',3))+'</dd></dl><small>Coordonnées fictives de démonstration ; numéros masqués, aucun message envoyé.</small></div>'
+ return '<div class="card accompaniment"><span class="eyebrow">Votre accompagnateur</span><h2 style="margin-top:12px">'+userText(author(f.conseiller))+'</h2><dl><dt>Agence</dt><dd>'+esc(value('agencyName',0))+'</dd><dt>Emplacement</dt><dd>'+esc(value('agencyLocation',1))+'</dd><dt>Email</dt><dd>'+esc(value('contactEmail',2))+'</dd><dt>Téléphone</dt><dd>'+esc(value('contactPhone',3))+'</dd><dt>WhatsApp</dt><dd>'+esc(u?.whatsapp||value('contactPhone',3))+'</dd></dl><small>Coordonnées fictives de démonstration ; numéros masqués, aucun message envoyé.</small></div>'
 }
 function historyWorkflow(h){
  const finished=h.status==='Terminée',attention=h.status==='Vigilance'||!!h.blocker;
- return '<details class="workflow"><summary>Voir le suivi du projet et les blocages</summary><div class="stages"><div class="stage">Fiche enregistrée<br><small>'+date(h.created)+'</small></div><div class="stage '+(!finished?(attention?'blocked':'current'):'')+'">Activité en cours'+(!finished?'<br><strong>'+esc(h.status)+'</strong>':'')+'</div><div class="stage '+(finished?'current':'')+'">Activité terminée'+(finished?'<br><strong>Clôturée</strong>':'<br><small>Non terminée</small>')+'</div></div>'+(h.blocker?'<p class="blocker"><strong>Blocage déclaré</strong><br>'+esc(h.blocker)+'</p>':h.status==='Vigilance'?'<p class="blocker"><strong>Point de vigilance à clarifier</strong><br>'+esc(h.note)+'</p>':'<p class="muted">Aucun blocage renseigné.</p>')+'<p><strong>Dernière observation :</strong> '+esc(h.note)+'</p>'+(h.events||[]).map(e=>'<div class="event">'+date(e.date)+' · '+esc(author(e.author))+'<br><strong>'+esc(e.status)+'</strong><p>'+esc(e.note)+'</p>'+(e.blocker?'<p class="red">'+esc(e.blocker)+'</p>':'')+'</div>').join('')+'<small>Les étapes non documentées ne sont pas reconstituées. Une activité terminée n’implique pas un accord de crédit.</small>'+(can('conseiller','admin')?'<p><button class="secondary" data-act="updateProgress" data-id="'+h.id+'">Mettre à jour le suivi</button></p>':'')+'</details>'
+ return '<details class="workflow"><summary>Voir le suivi du projet et les blocages</summary><div class="stages"><div class="stage">Fiche enregistrée<br><small>'+date(h.created)+'</small></div><div class="stage '+(!finished?(attention?'blocked':'current'):'')+'">Activité en cours'+(!finished?'<br><strong>'+esc(h.status)+'</strong>':'')+'</div><div class="stage '+(finished?'current':'')+'">Activité terminée'+(finished?'<br><strong>Clôturée</strong>':'<br><small>Non terminée</small>')+'</div></div>'+(h.blocker?'<p class="blocker"><strong>Blocage déclaré</strong><br>'+userText(h.blocker,/^h\d+$/.test(h.id))+'</p>':h.status==='Vigilance'?'<p class="blocker"><strong>Point de vigilance à clarifier</strong><br>'+userText(h.note,/^h\d+$/.test(h.id))+'</p>':'<p class="muted">Aucun blocage renseigné.</p>')+'<p><strong>Dernière observation :</strong> '+userText(h.note,/^h\d+$/.test(h.id))+'</p>'+(h.events||[]).map(e=>'<div class="event">'+date(e.date)+' · '+userText(author(e.author))+'<br><strong>'+esc(e.status)+'</strong><p>'+userText(e.note)+'</p>'+(e.blocker?'<p class="red">'+userText(e.blocker)+'</p>':'')+'</div>').join('')+'<small>Les étapes non documentées ne sont pas reconstituées. Une activité terminée n’implique pas un accord de crédit.</small>'+(can('conseiller','admin')?'<p><button class="secondary" data-act="updateProgress" data-id="'+h.id+'">Mettre à jour le suivi</button></p>':'')+'</details>'
 }
 function advisorHome(f){
  const u=user(),rs=visibleAccompaniments(),pending=rs.filter(r=>r.status==='Envoyée à l’agence').length,taken=rs.filter(r=>r.status==='Prise en charge').length;
- return '<section class="hero"><span class="eyebrow">Espace chargé de clientèle agricole</span><h1>'+esc(u.nom)+'</h1><p>'+esc(u.direction)+' · '+farmerList().length+' exploitations accompagnées</p><button class="secondary" data-page="accompaniment">Voir les demandes d’accompagnement reçues →</button></section><div class="grid"><article class="card"><span class="muted">Demandes à prendre en charge</span><div class="stat">'+pending+'</div><button data-page="accompaniment">Ouvrir les demandes reçues</button></article><article class="card"><span class="muted">Demandes prises en charge</span><div class="stat">'+taken+'</div><p>Le suivi reste visible à l’agriculteur.</p></article><article class="card"><span class="muted">Exploitation consultée</span><h2 style="margin-top:12px">'+esc(f?.nom||'Aucune exploitation affectée')+'</h2><p>Choisissez une exploitation dans la liste en haut de page.</p><button class="secondary" data-page="history">Consulter son historique</button></article></div><div class="card"><h2>De la demande à l’accompagnement</h2><p>Ouvrez <strong>Demandes reçues</strong> pour consulter les données de la simulation et les besoins transmis par vos agriculteurs. Cliquez sur <strong>Prendre en charge</strong> pour accepter l’accompagnement.</p><small>Pour tester une nouvelle demande : compte Youssef → Mes simulations → Demander un accompagnement, puis reconnectez-vous avec Salma dans ce même navigateur.</small></div>'
+ return '<section class="hero"><span class="eyebrow">Espace chargé de clientèle agricole</span><h1>'+userText(u.nom)+'</h1><p>'+userText(u.direction)+' · '+farmerList().length+' exploitations accompagnées</p><button class="secondary" data-page="accompaniment">Voir les demandes d’accompagnement reçues →</button></section><div class="grid"><article class="card"><span class="muted">Demandes à prendre en charge</span><div class="stat">'+pending+'</div><button data-page="accompaniment">Ouvrir les demandes reçues</button></article><article class="card"><span class="muted">Demandes prises en charge</span><div class="stat">'+taken+'</div><p>Le suivi reste visible à l’agriculteur.</p></article><article class="card"><span class="muted">Exploitation consultée</span><h2 style="margin-top:12px">'+esc(f?.nom||'Aucune exploitation affectée')+'</h2><p>Choisissez une exploitation dans la liste en haut de page.</p><button class="secondary" data-page="history">Consulter son historique</button></article></div><div class="card"><h2>De la demande à l’accompagnement</h2><p>Ouvrez <strong>Demandes reçues</strong> pour consulter les données de la simulation et les besoins transmis par vos agriculteurs. Cliquez sur <strong>Prendre en charge</strong> pour accepter l’accompagnement.</p><small>Pour tester une nouvelle demande : compte Youssef → Mes simulations → Demander un accompagnement, puis reconnectez-vous avec Salma dans ce même navigateur.</small></div>'
 }
 // Référentiel FDA : transcription ciblée du guide fourni, édition 2026.
 // Les aides restent conditionnelles, sans décision d’éligibilité ni addition de cumuls non vérifiés.
@@ -104,7 +108,7 @@ function fdaInputDisplay(e){const values={yes:'Oui, déclaré',no:'Non',universa
 function validFdaEstimates(a){return a===undefined||Array.isArray(a)&&a.every(e=>e&&typeof e.ruleId==='string'&&typeof e.name==='string'&&typeof e.formula==='string'&&typeof e.source==='string'&&typeof e.status==='string'&&(e.amount===null||typeof e.amount==='number'&&Number.isFinite(e.amount)&&e.amount>=0)&&e.inputs&&typeof e.inputs==='object'&&!Array.isArray(e.inputs)&&['missing','failed','warnings'].every(k=>Array.isArray(e[k])&&e[k].every(t=>typeof t==='string')))}
 function fdaSummary(estimates){if(!Array.isArray(estimates)||!estimates.length)return '';return '<div class="info"><strong>Scénarios FDA associés — non accordés</strong>'+estimates.map(e=>'<p><strong>'+esc(e.name)+'</strong><br>'+esc(e.status)+(e.amount!=null?' · '+money(e.amount):'')+'<br><small>'+esc(e.formula)+'<br>'+esc(e.source)+'</small></p><details><summary>Hypothèses et conditions conservées</summary>'+fdaInputDisplay(e).map(([k,v])=>'<p><strong>'+esc(k)+'</strong> : '+esc(v)+'</p>').join('')+[...(e.failed||[]),...(e.missing||[]),...(e.warnings||[])].map(t=>'<p>'+esc(t)+'</p>').join('')+'</details>').join('')+'<small>Montants non additionnés : cumuls, assiettes et décisions à vérifier. Aucun montant n’est déduit automatiquement du coût du projet.</small></div>'}
 function fdaBankPanel(){if(!result)return '';const rules=fdaRelated(result);return '<div class="card"><h2>Aides FDA liées à ce scénario</h2><p>Présélection selon l’activité et le scénario calculé ; critères restant à confirmer.</p>'+rules.map(r=>'<p><strong>'+esc(r.name)+'</strong><br><small>'+esc(r.summary)+'</small><br><button class="secondary" data-act="fdaBank" data-id="'+r.id+'">Examiner les critères FDA</button></p>').join('')+(!rules.length?'<p>Aucun barème automatisé associé à ce scénario. Les aides à la création de vergers ne portent pas sur les charges annuelles.</p>':'')+fdaSummary(result.fdaEstimates)+'<button class="secondary" data-page="aids">Explorer toutes les aides FDA</button></div>'}
-function fdaCatalog(){const chosen=FDA_DOMAINS.find(d=>d.id===fdaFamily);return '<p class="eyebrow">Fonds de Développement Agricole · Guide 2026</p><h1>Aides et subventions FDA</h1><p>Parcourez les dispositifs ou préparez une estimation à partir de zéro, sans projet enregistré.</p><div class="row"><button data-act="fdaStandalone">Simuler une aide à partir de zéro</button>'+ (chosen?'<button class="secondary" data-act="fdaFamily" data-id="">Tous les domaines</button>':'')+'</div><div class="info">L’estimation teste des critères déclarés. Elle ne confirme ni l’éligibilité, ni une approbation, ni le versement. Le guichet unique DPA / ORMVA vérifie le dossier. Les cumuls ne sont pas calculés.</div>'+(!chosen?'<div class="grid">'+FDA_DOMAINS.map(d=>'<article class="card"><h2>'+esc(d.name)+'</h2><p>'+esc(d.text)+'</p><small>Guide FDA 2026, p. '+d.pages+'</small><p><button class="secondary" data-act="fdaFamily" data-id="'+d.id+'">Voir les critères et les choix</button></p></article>').join('')+'</div>':'<div class="card"><h2>'+esc(chosen.name)+'</h2><p>'+esc(chosen.text)+'</p><div class="info">'+esc(chosen.limits)+'</div><small>Guide FDA 2026, p. '+chosen.pages+'</small></div><div class="grid">'+FDA_RULES.filter(r=>r.family===chosen.id).map(r=>'<article class="card"><span class="badge amber">Estimation conditionnelle</span><h2 style="margin-top:12px">'+esc(r.name)+'</h2><p>'+esc(r.summary)+'</p><small>'+esc(fdaSource(r))+'</small><p><button data-act="fdaStandalone" data-id="'+r.id+'">Renseigner mes critères</button></p></article>').join('')+'</div>'+(!FDA_RULES.some(r=>r.family===chosen.id)?'<div class="card">Ce domaine reste informatif : aucun calcul automatique pour ces règles complexes ou incomplètes. Votre conseiller peut étudier les conditions avec vous.</div>':''))}
+function fdaCatalog(){const chosen=FDA_DOMAINS.find(d=>d.id===fdaFamily);return '<p class="eyebrow">Fonds de Développement Agricole · Guide 2026</p><h1>Aides et subventions FDA</h1><p>Parcourez les dispositifs ou préparez une estimation à partir de zéro, sans projet enregistré.</p><div class="row"><button data-act="fdaStandalone">Simuler une aide à partir de zéro</button>'+ (chosen?'<button class="secondary" data-act="fdaFamily" data-id="">Tous les domaines</button>':'')+'</div><div class="info">L’estimation teste des critères déclarés. Elle ne confirme ni l’éligibilité, ni une approbation, ni le versement. Le guichet unique DPA / ORMVA vérifie le dossier. Les cumuls ne sont pas calculés.</div>'+(!chosen?'<div class="grid">'+FDA_DOMAINS.map(d=>'<article class="card"><h2>'+userText(d.name)+'</h2><p>'+esc(d.text)+'</p><small>Guide FDA 2026, p. '+d.pages+'</small><p><button class="secondary" data-act="fdaFamily" data-id="'+d.id+'">Voir les critères et les choix</button></p></article>').join('')+'</div>':'<div class="card"><h2>'+esc(chosen.name)+'</h2><p>'+esc(chosen.text)+'</p><div class="info">'+esc(chosen.limits)+'</div><small>Guide FDA 2026, p. '+chosen.pages+'</small></div><div class="grid">'+FDA_RULES.filter(r=>r.family===chosen.id).map(r=>'<article class="card"><span class="badge amber">Estimation conditionnelle</span><h2 style="margin-top:12px">'+esc(r.name)+'</h2><p>'+esc(r.summary)+'</p><small>'+esc(fdaSource(r))+'</small><p><button data-act="fdaStandalone" data-id="'+r.id+'">Renseigner mes critères</button></p></article>').join('')+'</div>'+(!FDA_RULES.some(r=>r.family===chosen.id)?'<div class="card">Ce domaine reste informatif : aucun calcul automatique pour ces règles complexes ou incomplètes. Votre conseiller peut étudier les conditions avec vous.</div>':''))}
 function fdaNum(key,label,v,unit=''){return '<label for="fda_'+key+'">'+esc(label)+(unit?' ('+esc(unit)+')':'')+'</label><input id="fda_'+key+'" name="'+key+'" type="number" min="0" step="any" value="'+esc(v[key]??'')+'">'}
 function fdaSelect(key,label,options,v){return select('fda_'+key,label,[['','À préciser'],...options.map(x=>Array.isArray(x)?x:[x,x])],v[key]||'').replace('name="fda_'+key+'"','name="'+key+'"')}
 function fdaYes(key,label,v){return fdaSelect(key,label,[['yes','Oui, selon les éléments déclarés'],['no','Non']],v)}
@@ -193,11 +197,11 @@ function attachFda(){
  closeModal();render();toast(fdaContext.mode==='bank'?'Scénario FDA associé. Enregistrez la simulation pour le conserver.':'Scénario FDA enregistré ; les demandes déjà envoyées restent inchangées.');
 }
 
-function home(f){if(can('conseiller'))return advisorHome(f);if(!f)return '<h1>Bienvenue</h1><div class="empty">Aucune exploitation affectée à ce compte.</div>';const hs=db.list('history').filter(h=>h.farmer===f.id);return '<section class="hero"><span class="eyebrow">Votre exploitation, au fil du temps</span><h1>'+esc(f.nom)+'</h1><p>'+esc(f.commune)+' · '+esc(f.region)+' · '+f.superficie+' hectares · '+esc(f.foncier)+'</p><button class="secondary" data-page="profile">Consulter le profil agriculteur →</button></section><div class="grid">'+[['history','01','Mon historique d’exploitation','Retrouvez les activités, le matériel et les observations année après année.'],['bank','02','Banque de projets','Explorez les plantations et l’élevage, puis préparez votre simulation.'],['aids','03','Subventions','Repérez les pistes d’aide à examiner avec votre conseiller.']].map(([p,k,t,d])=>'<article class="card"><span class="tag">'+k+'</span><h2 style="margin-top:18px">'+t+'</h2><p>'+d+'</p><button data-page="'+p+'">Explorer →</button></article>').join('')+'</div><div class="grid" style="margin-top:20px"><div class="card"><span class="muted">Mémoire de l’exploitation</span><div class="stat">'+hs.length+' activités</div><small>Observations attribuées et datées</small></div>'+accompaniment(f)+'<div class="card"><span class="muted">Dossier documentaire</span><div class="stat">'+db.list('documents').filter(d=>d.farmer===f.id).length+' pièces</div><button class="secondary" data-page="docs">Ouvrir le dossier</button></div></div>'}
-function history(f){if(!f)return '<div class="empty">Aucune exploitation accessible.</div>';let hs=db.list('history').filter(x=>x.farmer===f.id&&(!history.year||String(x.year)===history.year)&&(historyScope==='both'||(historyScope==='finished'?x.status==='Terminée':x.status!=='Terminée')));return '<div class="row between"><div><p class="eyebrow">Une mémoire qui reste</p><h1>Historique d’exploitation</h1></div>'+(can('conseiller','admin')?'<button data-act="addHistory">Ajouter une activité</button>':'')+'</div><div class="card"><div class="grid"><div><small>Terrains</small><h2>'+f.superficie+' ha · '+esc(f.foncier)+'</h2><p>'+esc(f.commune)+'</p></div><div><small>Matériel déclaré</small><p>'+esc(f.materiel)+'</p></div><div><label for="yearFilter">Année</label><select id="yearFilter"><option value="">Toutes les années</option>'+[...new Set(db.list('history').map(h=>h.year))].sort().reverse().map(y=>'<option '+(String(y)===history.year?'selected':'')+'>'+y+'</option>').join('')+'</select></div></div><div class="row filters" role="group" aria-label="Filtrer les activités">'+[['both','Tous les projets'],['active','En cours uniquement'],['finished','Anciens / terminés uniquement']].map(([key,label])=>'<button class="secondary" data-act="historyScope" data-id="'+key+'" aria-pressed="'+(historyScope===key)+'">'+label+'</button>').join('')+'</div><p><small>Les projets en vigilance restent inclus dans « En cours ».</small></p></div>'+(!hs.length?'<div class="empty">Aucune activité pour cette année.</div>':hs.sort((a,b)=>b.year-a.year).map(h=>'<article class="card"><div class="row between"><div><span class="eyebrow">Campagne '+h.year+'</span><h2>'+esc(h.activity)+'</h2></div>'+badge(h.status)+'</div><div class="grid"><p><strong>'+h.area+' ha</strong> · '+esc(h.mode)+(h.count?' · '+h.count+' animaux':'')+'</p><p>Dépenses déclarées : <strong>'+money(h.cost)+'</strong><br><small>Montant fictif de démonstration</small></p></div>'+(can('conseiller','admin')?'<div class="info"><strong>Lecture technique</strong><p>Densité : '+esc(h.density)+' · Âge : '+h.age+' ans<br>Alimentation : '+esc(h.feed)+'</p></div>':'')+'<p>'+esc(h.note)+'</p><small>Renseigné par '+esc(author(h.author))+' · '+date(h.created)+'</small>'+historyWorkflow(h)+'</article>').join(''))}
+function home(f){if(can('conseiller'))return advisorHome(f);if(!f)return '<h1>Bienvenue</h1><div class="empty">Aucune exploitation affectée à ce compte.</div>';const hs=db.list('history').filter(h=>h.farmer===f.id);return '<section class="hero"><span class="eyebrow">Votre exploitation, au fil du temps</span><h1>'+userText(f.nom)+'</h1><p>'+userText(f.commune)+' · '+userText(f.region)+' · '+f.superficie+' hectares · '+esc(f.foncier)+'</p><button class="secondary" data-page="profile">Consulter le profil agriculteur →</button></section><div class="grid">'+[['history','01','Mon historique d’exploitation','Retrouvez les activités, le matériel et les observations année après année.'],['bank','02','Banque de projets','Explorez les plantations et l’élevage, puis préparez votre simulation.'],['aids','03','Subventions','Repérez les pistes d’aide à examiner avec votre conseiller.']].map(([p,k,t,d])=>'<article class="card"><span class="tag">'+k+'</span><h2 style="margin-top:18px">'+t+'</h2><p>'+d+'</p><button data-page="'+p+'">Explorer →</button></article>').join('')+'</div><div class="grid" style="margin-top:20px"><div class="card"><span class="muted">Mémoire de l’exploitation</span><div class="stat">'+hs.length+' activités</div><small>Observations attribuées et datées</small></div>'+accompaniment(f)+'<div class="card"><span class="muted">Dossier documentaire</span><div class="stat">'+db.list('documents').filter(d=>d.farmer===f.id).length+' pièces</div><button class="secondary" data-page="docs">Ouvrir le dossier</button></div></div>'}
+function history(f){if(!f)return '<div class="empty">Aucune exploitation accessible.</div>';let hs=db.list('history').filter(x=>x.farmer===f.id&&(!history.year||String(x.year)===history.year)&&(historyScope==='both'||(historyScope==='finished'?x.status==='Terminée':x.status!=='Terminée')));return '<div class="row between"><div><p class="eyebrow">Une mémoire qui reste</p><h1>Historique d’exploitation</h1></div>'+(can('conseiller','admin')?'<button data-act="addHistory">Ajouter une activité</button>':'')+'</div><div class="card"><div class="grid"><div><small>Terrains</small><h2>'+f.superficie+' ha · '+esc(f.foncier)+'</h2><p>'+userText(f.commune)+'</p></div><div><small>Matériel déclaré</small><p>'+userText(f.materiel)+'</p></div><div><label for="yearFilter">Année</label><select id="yearFilter"><option value="">Toutes les années</option>'+[...new Set(db.list('history').map(h=>h.year))].sort().reverse().map(y=>'<option '+(String(y)===history.year?'selected':'')+'>'+y+'</option>').join('')+'</select></div></div><div class="row filters" role="group" aria-label="Filtrer les activités">'+[['both','Tous les projets'],['active','En cours uniquement'],['finished','Anciens / terminés uniquement']].map(([key,label])=>'<button class="secondary" data-act="historyScope" data-id="'+key+'" aria-pressed="'+(historyScope===key)+'">'+label+'</button>').join('')+'</div><p><small>Les projets en vigilance restent inclus dans « En cours ».</small></p></div>'+(!hs.length?'<div class="empty">Aucune activité pour cette année.</div>':hs.sort((a,b)=>b.year-a.year).map(h=>'<article class="card"><div class="row between"><div><span class="eyebrow">Campagne '+h.year+'</span><h2>'+userText(h.activity,/^h\d+$/.test(h.id))+'</h2></div>'+badge(h.status)+'</div><div class="grid"><p><strong>'+h.area+' ha</strong> · '+esc(h.mode)+(h.count?' · '+h.count+' animaux':'')+'</p><p>Dépenses déclarées : <strong>'+money(h.cost)+'</strong><br><small>Montant fictif de démonstration</small></p></div>'+(can('conseiller','admin')?'<div class="info"><strong>Lecture technique</strong><p>Densité : '+esc(h.density)+' · Âge : '+h.age+' ans<br>Alimentation : '+esc(h.feed)+'</p></div>':'')+'<p>'+userText(h.note,/^h\d+$/.test(h.id))+'</p><small>Renseigné par '+userText(author(h.author))+' · '+date(h.created)+'</small>'+historyWorkflow(h)+'</article>').join(''))}
 function bank(){let ps=db.list('projects').filter(p=>(category==='Tous'||p.category===category)&&(!search||(p.name+' '+p.family).toLowerCase().includes(search.toLowerCase())));return '<p class="eyebrow">Des idées à votre projet</p><h1>Banque de projets</h1><p>Un catalogue détaillé à explorer avec votre conseiller. La région du profil accompagne chaque simulation ; l’adaptation agronomique reste à confirmer.</p><div class="toolbar"><label class="muted" for="projectSearch">Rechercher</label><input id="projectSearch" placeholder="Pommier, bovins, fourrages…" value="'+esc(search)+'"><select id="category" aria-label="Catégorie">'+['Tous','Plantations','Élevage'].map(c=>'<option '+(category===c?'selected':'')+'>'+c+'</option>').join('')+'</select></div><div class="grid">'+ps.map(p=>'<article class="card"><div class="row between"><span class="tag">'+esc(p.category)+'</span><span aria-hidden="true">'+(p.category==='Élevage'?'♧':'❧')+'</span></div><p class="eyebrow" style="margin-top:20px">'+esc(p.family)+'</p><h2>'+esc(p.name)+'</h2><p>'+esc(p.mode)+'</p><p><span class="badge '+(['p1','p2','p3','p11'].includes(p.id)?'green':'amber')+'">'+(['p1','p2','p3','p11'].includes(p.id)?'Référence PDF disponible':'Chiffrage à compléter')+'</span></p><button data-act="choose" data-id="'+p.id+'">Explorer et simuler →</button></article>').join('')+'</div>'+(!ps.length?'<div class="empty">Aucun projet trouvé. <button data-act="clearSearch">Afficher tout le catalogue</button></div>':'')}
-function simulator(){let p=project(selectedProject),f=farmer();if(!p||!f)return '<div class="empty">Sélectionnez un projet depuis la banque. <button data-page="bank">Ouvrir le catalogue</button></div>';let plant=p.category==='Plantations';return '<button class="secondary" data-page="bank">← Banque de projets</button><h1 style="margin-top:20px">'+esc(p.name)+'</h1><p>'+esc(f.nom)+' · '+esc(f.region)+' · '+esc(f.commune)+'</p><div class="split"><form id="simulationForm" class="card"><h2>Préparer ma simulation</h2>'+field('location','Implantation / commune',f.commune,'text',true)+(plant?field('quantity','Superficie du projet (ha)',2,'number',true)+select('mode','Périmètre',['Irrigué','Bour favorable','Bour défavorable'],'Irrigué')+select('conduct','Conduite technique',['Basique','Intermédiaire','Intensive'],'Basique')+select('stage','Stade de la plantation',['Investissement','1ère année','2ème année','3ème année','4ème année','Adulte'],'Investissement'):field('quantity','Nombre d’animaux',10,'number',true)+field('stable','Superficie de l’étable (m²)',100,'number')+field('forage','Ressources fourragères / unités fourragères disponibles','À préciser avec le conseiller')+field('feed','Aliments du bétail et achats prévus','À préciser'))+field('rain','Précipitations observées ou attendues (information libre)','','text')+select('competition','Concurrence / demandes similaires',['Non renseignée','À examiner','Plusieurs demandes similaires signalées'],'Non renseignée')+'<div class="info">Pluie et concurrence : informations conservées, sans effet calculé sur le prix. Aucun revenu ni bénéfice n’est prédit.</div>'+submit('Calculer les références')+'</form><div><div class="card"><h2>Estimation indicative</h2>'+(result?'<p class="badge '+(result.min!=null?'green':'amber')+'">'+(result.min!=null?'Référence vérifiée':'Référence indisponible')+'</p><p>'+esc(result.label)+'</p>'+(result.min!=null?'<p class="price">'+money(result.min)+'<br>à '+money(result.max)+'</p>':'')+'<p>'+esc(result.detail)+'</p><p><button data-act="saveSimulation">Enregistrer cette simulation</button></p>':'<p class="muted">Renseignez votre projet pour afficher une fourchette ou les informations restant à confirmer.</p>')+'</div>'+fdaBankPanel()+'<div class="card"><h3>Pour aller plus loin</h3><button class="secondary" data-page="trainings">Formations '+esc(p.category.toLowerCase())+'</button><p><button class="secondary" data-page="expertise">Consulter l’expertise</button></p><button class="secondary" data-page="aids">Examiner les aides possibles</button></div></div></div>'}
-function simulations(){let ss=db.list('simulations').filter(s=>farmerList().some(f=>f.id===s.farmer));return '<h1>Simulations enregistrées</h1><p>Les références et informations de contexte restent attachées à chaque projet.</p>'+(ss.length?ss.slice().reverse().map(s=>'<article class="card"><div class="row between"><h2>'+esc(project(s.project)?.name)+'</h2><small>'+date(s.created)+'</small></div><p>'+esc(db.list('farmers').find(f=>f.id===s.farmer)?.nom)+' · '+esc(s.params.location)+'</p><p>'+(s.min!=null?money(s.min)+' à '+money(s.max):'Chiffrage à compléter')+'</p><p>'+esc(s.label)+' · '+esc(s.params.quantity)+(project(s.project)?.category==='Plantations'?' ha':' animaux')+'</p><small>Pluie : '+esc(s.params.rain||'Non renseignée')+' · Concurrence : '+esc(s.params.competition)+'</small><p>'+esc(s.detail)+'</p><small>'+esc(author(s.author))+'</small>'+fdaSummary(s.fdaEstimates)+'<p class="row"><button data-act="requestAccompaniment" data-id="'+s.id+'">Demander un accompagnement</button><button class="secondary" data-act="fdaSaved" data-id="'+s.id+'">Étudier les aides FDA</button><button class="secondary" data-act="redoSimulation" data-id="'+s.id+'">Refaire une simulation</button><button class="secondary" data-act="downloadSimulationPdf" data-id="'+s.id+'">Télécharger le PDF</button></p></article>').join(''):'<div class="card empty">Aucune simulation enregistrée.<p><button data-page="bank">Choisir un projet</button></p></div>')}
+function simulator(){let p=project(selectedProject),f=farmer();if(!p||!f)return '<div class="empty">Sélectionnez un projet depuis la banque. <button data-page="bank">Ouvrir le catalogue</button></div>';let plant=p.category==='Plantations';return '<button class="secondary" data-page="bank">← Banque de projets</button><h1 style="margin-top:20px">'+esc(p.name)+'</h1><p>'+userText(f.nom)+' · '+userText(f.region)+' · '+userText(f.commune)+'</p><div class="split"><form id="simulationForm" class="card"><h2>Préparer ma simulation</h2>'+field('location','Implantation / commune',f.commune,'text',true)+(plant?field('quantity','Superficie du projet (ha)',2,'number',true)+select('mode','Périmètre',['Irrigué','Bour favorable','Bour défavorable'],'Irrigué')+select('conduct','Conduite technique',['Basique','Intermédiaire','Intensive'],'Basique')+select('stage','Stade de la plantation',['Investissement','1ère année','2ème année','3ème année','4ème année','Adulte'],'Investissement'):field('quantity','Nombre d’animaux',10,'number',true)+field('stable','Superficie de l’étable (m²)',100,'number')+field('forage','Ressources fourragères / unités fourragères disponibles','À préciser avec le conseiller')+field('feed','Aliments du bétail et achats prévus','À préciser'))+field('rain','Précipitations observées ou attendues (information libre)','','text')+select('competition','Concurrence / demandes similaires',['Non renseignée','À examiner','Plusieurs demandes similaires signalées'],'Non renseignée')+'<div class="info">Pluie et concurrence : informations conservées, sans effet calculé sur le prix. Aucun revenu ni bénéfice n’est prédit.</div>'+submit('Calculer les références')+'</form><div><div class="card"><h2>Estimation indicative</h2>'+(result?'<p class="badge '+(result.min!=null?'green':'amber')+'">'+(result.min!=null?'Référence vérifiée':'Référence indisponible')+'</p><p>'+esc(result.label)+'</p>'+(result.min!=null?'<p class="price">'+money(result.min)+'<br>à '+money(result.max)+'</p>':'')+'<p>'+esc(result.detail)+'</p><p><button data-act="saveSimulation">Enregistrer cette simulation</button></p>':'<p class="muted">Renseignez votre projet pour afficher une fourchette ou les informations restant à confirmer.</p>')+'</div>'+fdaBankPanel()+'<div class="card"><h3>Pour aller plus loin</h3><button class="secondary" data-page="trainings">Formations '+esc(p.category.toLowerCase())+'</button><p><button class="secondary" data-page="expertise">Consulter l’expertise</button></p><button class="secondary" data-page="aids">Examiner les aides possibles</button></div></div></div>'}
+function simulations(){let ss=db.list('simulations').filter(s=>farmerList().some(f=>f.id===s.farmer));return '<h1>Simulations enregistrées</h1><p>Les références et informations de contexte restent attachées à chaque projet.</p>'+(ss.length?ss.slice().reverse().map(s=>'<article class="card"><div class="row between"><h2>'+esc(project(s.project)?.name)+'</h2><small>'+date(s.created)+'</small></div><p>'+esc(db.list('farmers').find(f=>f.id===s.farmer)?.nom)+' · '+esc(s.params.location)+'</p><p>'+(s.min!=null?money(s.min)+' à '+money(s.max):'Chiffrage à compléter')+'</p><p>'+esc(s.label)+' · '+esc(s.params.quantity)+(project(s.project)?.category==='Plantations'?' ha':' animaux')+'</p><small>Pluie : '+esc(s.params.rain||'Non renseignée')+' · Concurrence : '+esc(s.params.competition)+'</small><p>'+esc(s.detail)+'</p><small>'+userText(author(s.author))+'</small>'+fdaSummary(s.fdaEstimates)+'<p class="row"><button data-act="requestAccompaniment" data-id="'+s.id+'">Demander un accompagnement</button><button class="secondary" data-act="fdaSaved" data-id="'+s.id+'">Étudier les aides FDA</button><button class="secondary" data-act="redoSimulation" data-id="'+s.id+'">Refaire une simulation</button><button class="secondary" data-act="downloadSimulationPdf" data-id="'+s.id+'">Télécharger le PDF</button></p></article>').join(''):'<div class="card empty">Aucune simulation enregistrée.<p><button data-page="bank">Choisir un projet</button></p></div>')}
 function simulationSummary(sim){
  const labels={location:'Implantation',quantity:project(sim.project)?.category==='Plantations'?'Superficie (ha)':'Nombre d’animaux',mode:'Périmètre',conduct:'Conduite',stage:'Stade',stable:'Superficie de l’étable (m²)',forage:'Ressources fourragères',feed:'Aliments du bétail',rain:'Précipitations (information)',competition:'Concurrence (information)'};
  return '<div class="table"><table><tbody>'+Object.entries(labels).filter(([key])=>key in sim.params).map(([key,label])=>'<tr><th>'+esc(label)+'</th><td>'+esc(sim.params[key]||'Non renseigné')+'</td></tr>').join('')+'</tbody></table></div><p><strong>'+esc(sim.label)+'</strong><br>'+(sim.min!=null?money(sim.min)+' à '+money(sim.max):'Chiffrage à compléter')+'</p><p>'+esc(sim.detail)+'</p>'+fdaSummary(sim.fdaEstimates)
@@ -205,13 +209,13 @@ function simulationSummary(sim){
 function openAccompaniment(sid){
  if(!guard('agriculteur','conseiller','admin'))return;const sim=accessibleSimulation(sid);if(!sim){toast('Simulation inaccessible.',true);return}const f=db.list('farmers').find(f=>f.id===sim.farmer),advisor=db.list('users').find(u=>u.id===f?.conseiller&&u.role==='conseiller'&&u.actif);
  if(!f||!advisor){toast('Aucun conseiller actif affecté : contactez l’administrateur pour compléter l’affectation.',true);return}
- modal('Demander un accompagnement','<form id="accompanimentForm" data-id="'+sim.id+'"><p><strong>'+esc(f.nom)+'</strong> · '+esc(f.region)+'</p><p>Projet : <strong>'+esc(project(sim.project)?.name)+'</strong></p><div class="info">Destinataire : <strong>'+esc(advisor.nom)+'</strong><br>'+esc(advisor.direction)+'<br>Une copie des données ci-dessous sera conservée à l’envoi. La demande ne déclenche ni crédit ni travaux.</div>'+simulationSummary(sim)+field('subject','Objet de la demande','Accompagnement — '+project(sim.project)?.name,'text',true)+field('contact','Téléphone de contact (facultatif)','','tel')+field('contactEmail','Email de contact (facultatif)',can('agriculteur')?user().email:'','email')+'<label for="message">Besoin d’accompagnement (facultatif)</label><textarea id="message" name="message" placeholder="Précisez les points à examiner avec votre conseiller…"></textarea>'+submit('Confirmer et envoyer à l’agence')+'</form>')
+ modal('Demander un accompagnement','<form id="accompanimentForm" data-id="'+sim.id+'"><p><strong>'+userText(f.nom)+'</strong> · '+userText(f.region)+'</p><p>Projet : <strong>'+esc(project(sim.project)?.name)+'</strong></p><div class="info">Destinataire : <strong>'+userText(advisor.nom)+'</strong><br>'+userText(advisor.direction)+'<br>Une copie des données ci-dessous sera conservée à l’envoi. La demande ne déclenche ni crédit ni travaux.</div>'+simulationSummary(sim)+field('subject','Objet de la demande',localize('Accompagnement — ')+localize(project(sim.project)?.name),'text',true)+field('contact','Téléphone de contact (facultatif)','','tel')+field('contactEmail','Email de contact (facultatif)',can('agriculteur')?user().email:'','email')+'<label for="message">Besoin d’accompagnement (facultatif)</label><textarea id="message" name="message" placeholder="Précisez les points à examiner avec votre conseiller…"></textarea>'+submit('Confirmer et envoyer à l’agence')+'</form>')
 }
 function visibleAccompaniments(){
  const u=user();if(!u)return [];return db.list('accompaniments').filter(r=>farmerList().some(f=>f.id===r.farmer)&&(u.role!=='conseiller'||r.advisor===u.id))
 }
 function accompanimentRequests(){
- const rs=visibleAccompaniments().slice().reverse();return '<p class="eyebrow">De la simulation à l’accompagnement</p><h1>Demandes d’accompagnement</h1><div class="info">« Envoyée à l’agence » confirme l’enregistrement local de la demande pour le conseiller affecté. « Prise en charge » signifie qu’il a accepté de l’accompagner. Aucun de ces états ne vaut accord de financement. Ce prototype ne transmet pas de demande à une agence réelle.</div>'+(rs.length?rs.map(r=>'<article class="card"><div class="row between"><h2>'+esc(r.subject)+'</h2><span class="badge '+(r.status==='Prise en charge'?'green':'amber')+'">'+esc(r.status)+'</span></div><p><strong>'+esc(r.farmerSnapshot.nom)+'</strong> · '+esc(r.farmerSnapshot.region)+'<br>Destinataire à l’envoi : '+esc(r.advisorName)+' · '+esc(r.agency)+'</p><p>Envoyée le '+date(r.created)+' · '+esc(r.senderName)+'<br>Référence : '+esc(r.id)+'</p>'+(r.message?'<p>'+esc(r.message)+'</p>':'')+'<p>Contact communiqué : '+esc(r.contact||'Téléphone non renseigné')+' · '+esc(r.contactEmail||'Email non renseigné')+'</p><details class="workflow"><summary>Voir les données envoyées et le suivi</summary><p><strong>Copie conservée à l’envoi</strong> · '+esc(r.projectName)+'</p>'+simulationSummary(r.snapshot)+'<div class="event">'+date(r.created)+' · '+esc(r.senderName)+'<br>Envoyée à l’agence</div>'+(r.takenAt?'<div class="event">'+date(r.takenAt)+' · '+esc(r.takenByName)+'<br>Prise en charge</div>':'<p class="muted">En attente de prise en charge par le conseiller.</p>')+'</details>'+(can('conseiller')&&r.advisor===user().id&&r.status==='Envoyée à l’agence'?'<p><button data-act="takeAccompaniment" data-id="'+r.id+'">Prendre en charge</button></p>':'')+'</article>').join(''):'<div class="card empty">Aucune demande d’accompagnement pour ce profil.<p><button data-page="simulations">Consulter les simulations</button></p></div>')
+ const rs=visibleAccompaniments().slice().reverse();return '<p class="eyebrow">De la simulation à l’accompagnement</p><h1>Demandes d’accompagnement</h1><div class="info">« Envoyée à l’agence » confirme l’enregistrement local de la demande pour le conseiller affecté. « Prise en charge » signifie qu’il a accepté de l’accompagner. Aucun de ces états ne vaut accord de financement. Ce prototype ne transmet pas de demande à une agence réelle.</div>'+(rs.length?rs.map(r=>'<article class="card"><div class="row between"><h2>'+userText(r.subject)+'</h2><span class="badge '+(r.status==='Prise en charge'?'green':'amber')+'">'+esc(r.status)+'</span></div><p><strong>'+userText(r.farmerSnapshot.nom)+'</strong> · '+userText(r.farmerSnapshot.region)+'<br>Destinataire à l’envoi : '+userText(r.advisorName)+' · '+userText(r.agency)+'</p><p>Envoyée le '+date(r.created)+' · '+userText(r.senderName)+'<br>Référence : '+esc(r.id)+'</p>'+(r.message?'<p>'+userText(r.message)+'</p>':'')+'<p>Contact communiqué : '+esc(r.contact||'Téléphone non renseigné')+' · '+esc(r.contactEmail||'Email non renseigné')+'</p><details class="workflow"><summary>Voir les données envoyées et le suivi</summary><p><strong>Copie conservée à l’envoi</strong> · '+esc(r.projectName)+'</p>'+simulationSummary(r.snapshot)+'<div class="event">'+date(r.created)+' · '+userText(r.senderName)+'<br>Envoyée à l’agence</div>'+(r.takenAt?'<div class="event">'+date(r.takenAt)+' · '+userText(r.takenByName)+'<br>Prise en charge</div>':'<p class="muted">En attente de prise en charge par le conseiller.</p>')+'</details>'+(can('conseiller')&&r.advisor===user().id&&r.status==='Envoyée à l’agence'?'<p><button data-act="takeAccompaniment" data-id="'+r.id+'">Prendre en charge</button></p>':'')+'</article>').join(''):'<div class="card empty">Aucune demande d’accompagnement pour ce profil.<p><button data-page="simulations">Consulter les simulations</button></p></div>')
 }
 function accessibleSimulation(sid){return db.list('simulations').find(s=>s.id===sid&&farmerList().some(f=>f.id===s.farmer))}
 // PDF autonome : pages dessinées en haute résolution puis encapsulées dans un vrai PDF.
@@ -220,14 +224,14 @@ function createSimulationPdf(sim){
  const width=595.28,height=841.89,margin=46,usable=width-2*margin,scale=2,pages=[];
  let canvas,ctx,y;
  function newPage(){
-  canvas=document.createElement('canvas');canvas.width=Math.ceil(width*scale);canvas.height=Math.ceil(height*scale);ctx=canvas.getContext('2d');if(!ctx)throw Error('Canvas indisponible');ctx.scale(scale,scale);ctx.fillStyle='#FFFFFF';ctx.fillRect(0,0,width,height);
-  ctx.fillStyle='#007732';ctx.fillRect(0,0,width,65);ctx.fillStyle='#FFFFFF';ctx.font='bold 15px Calibri, Arial, sans-serif';ctx.fillText('Crédit Agricole du Maroc',margin,28);ctx.font='11px Calibri, Arial, sans-serif';ctx.fillText('AgriImpact · Rapport de simulation',margin,47);
-  ctx.strokeStyle='#DDDDDD';ctx.beginPath();ctx.moveTo(margin,height-49);ctx.lineTo(width-margin,height-49);ctx.stroke();ctx.fillStyle='#64716A';ctx.font='9px Calibri, Arial, sans-serif';ctx.fillText('POC confidentiel · Données fictives · Sans valeur contractuelle',margin,height-33);ctx.fillText('Page '+(pages.length+1),width-margin-38,height-18);
+  canvas=document.createElement('canvas');canvas.width=Math.ceil(width*scale);canvas.height=Math.ceil(height*scale);ctx=canvas.getContext('2d');if(!ctx)throw Error('Canvas indisponible');ctx.scale(scale,scale);ctx.direction=currentLanguage==='ary'?'rtl':'ltr';ctx.textAlign=currentLanguage==='ary'?'right':'left';ctx.fillStyle='#FFFFFF';ctx.fillRect(0,0,width,height);
+  ctx.fillStyle='#007732';ctx.fillRect(0,0,width,65);ctx.fillStyle='#FFFFFF';ctx.font='bold 15px Calibri, Arial, sans-serif';ctx.fillText(localize('Crédit Agricole du Maroc'),currentLanguage==='ary'?width-margin:margin,28);ctx.font='11px Calibri, Arial, sans-serif';ctx.fillText(localize('AgriImpact · Rapport de simulation'),currentLanguage==='ary'?width-margin:margin,47);
+  ctx.strokeStyle='#DDDDDD';ctx.beginPath();ctx.moveTo(margin,height-49);ctx.lineTo(width-margin,height-49);ctx.stroke();ctx.fillStyle='#64716A';ctx.font='9px Calibri, Arial, sans-serif';ctx.fillText(localize('POC confidentiel · Données fictives · Sans valeur contractuelle'),currentLanguage==='ary'?width-margin:margin,height-33);ctx.fillText(localize('Page')+' '+(pages.length+1),currentLanguage==='ary'?margin+38:width-margin-38,height-18);
   pages.push(canvas);y=93;
  }
- function text(value,{size=11,bold=false,color='#4A4A4A',gap=7}={}){
-  const lineHeight=size*1.45,font=(bold?'bold ':'')+size+'px Calibri, Arial, sans-serif';
-  function line(t){if(y+lineHeight>height-68)newPage();ctx.font=font;ctx.fillStyle=color;ctx.fillText(t,margin,y);y+=lineHeight}
+ function text(value,{size=11,bold=false,color='#4A4A4A',gap=7,raw=false}={}){
+  value=raw?String(value??''):localize(value);const lineHeight=size*1.45,font=(bold?'bold ':'')+size+'px Calibri, Arial, sans-serif';
+  function line(t){if(y+lineHeight>height-68)newPage();ctx.font=font;ctx.fillStyle=color;ctx.fillText(t,currentLanguage==='ary'?width-margin:margin,y);y+=lineHeight}
   for(const paragraph of String(value??'Non renseigné').split(/\r?\n/)){
    ctx.font=font;let current='';
    for(const word of paragraph.split(/\s+/).filter(Boolean)){
@@ -244,9 +248,9 @@ function createSimulationPdf(sim){
  function heading(value){text(value,{size:14,bold:true,color:'#005122',gap:10})}
  const f=db.list('farmers').find(f=>f.id===sim.farmer),labels={location:'Implantation',quantity:project(sim.project)?.category==='Plantations'?'Superficie (ha)':'Nombre d’animaux',mode:'Périmètre',conduct:'Conduite',stage:'Stade',stable:'Superficie de l’étable (m²)',forage:'Ressources fourragères',feed:'Aliments du bétail',rain:'Précipitations (information)',competition:'Concurrence (information)'};
  newPage();text('Rapport de simulation',{size:25,bold:true,color:'#005122',gap:12});heading(project(sim.project)?.name||'Projet agricole');
- text((f?.nom||'Agriculteur')+' · '+(f?.region||'Région non renseignée'));
- text('Simulation du '+date(sim.created)+' · '+author(sim.author));text('Référence : '+sim.id,{size:9,gap:15});heading('Paramètres du projet');
- Object.entries(labels).filter(([key])=>key in sim.params).forEach(([key,label])=>text(label+' : '+(String(sim.params[key]??'').trim()||'Non renseigné')));
+ text((f?.nom||localize('Agriculteur'))+' · '+(f?.region||localize('Région non renseignée')),{raw:true});
+ text(localize('Simulation du')+' '+date(sim.created)+' · '+author(sim.author),{raw:true});text('Référence : '+sim.id,{size:9,gap:15});heading('Paramètres du projet');
+ Object.entries(labels).filter(([key])=>key in sim.params).forEach(([key,label])=>text(localize(label)+' : '+(String(sim.params[key]??'').trim()?(['location','rain','forage','feed'].includes(key)?String(sim.params[key]):localize(sim.params[key])):localize('Non renseigné')),{raw:true}));
  heading('Estimation indicative');text(sim.label,{bold:true});text(sim.min!=null?money(sim.min)+' à '+money(sim.max):'Chiffrage à compléter',{size:18,bold:true,color:'#007732',gap:12});text(sim.detail);
  if(Array.isArray(sim.fdaEstimates)&&sim.fdaEstimates.length){heading('Scénarios FDA — aides non accordées');for(const e of sim.fdaEstimates){text(e.name,{bold:true});text(e.status+(e.amount!=null?' : '+money(e.amount):''));text(e.formula,{size:10});for(const [label,value] of fdaInputDisplay(e))text(label+' : '+value,{size:9,gap:3});for(const t of [...(e.failed||[]),...(e.missing||[]),...(e.warnings||[])])text(t,{size:9,gap:4});text(e.source,{size:9})}text('Aides non additionnées et non déduites automatiquement du coût. Vérifier les cumuls et les assiettes au guichet unique.',{bold:true,size:10})}
  heading('À retenir');text('Les précipitations et la concurrence sont informatives : aucun effet sur les prix n’est calculé. Cette simulation ne constitue ni une demande de crédit, ni un accord de financement, ni une autorisation de démarrer les travaux.');text('Crédit Agricole du Maroc — Programme Intrapreneuriat',{size:9});
@@ -267,14 +271,14 @@ function downloadSimulationPdf(sid){
  try{const pdf=createSimulationPdf(sim);download(pdf,'agriimpact-simulation-'+sim.created.split('-').reverse().join('')+'-'+sim.id.replace(/[^a-zA-Z0-9-]/g,'').slice(0,12)+'.pdf');toast('Le PDF est prêt : téléchargement lancé.')}catch{toast('La création du PDF a échoué. Réessayez dans Chrome ou Edge.',true)}
 }
 
-function documents(f){if(!f)return '<div class="empty">Aucun dossier accessible.</div>';const ds=db.list('documents').filter(d=>d.farmer===f.id);return '<div class="row between"><div><p class="eyebrow">Du terrain au contrat</p><h1>Dossier documentaire</h1></div>'+(can('conseiller','admin')?'<button data-act="addDocument">Déposer un document</button>':'')+'</div><div class="info">L’accord du comité est donné sur une autre plateforme. Son document puis le contrat sont déposés ici manuellement. Aucune décision automatique n’est déduite des pièces.</div><div class="card"><h2>'+esc(f.nom)+'</h2>'+ds.sort((a,b)=>b.created.localeCompare(a.created)).map(d=>'<article class="docs"><span class="badge '+(d.type==='Accord du comité'?'green':d.type==='Contrat'?'green':'amber')+'">'+esc(d.type)+'</span><h3 style="margin-top:10px">'+esc(d.name)+'</h3><p>'+esc(project(d.project)?.name||'Exploitation')+'</p><small>'+date(d.created)+' · '+esc(author(d.author))+'</small><p><button class="secondary" data-act="downloadDoc" data-id="'+d.id+'">Télécharger la pièce</button></p></article>').join('')+(!ds.length?'<div class="empty">Aucune pièce déposée pour cette exploitation.</div>':'')+'</div>'}
-function expertise(){let es=db.list('expertise').filter(e=>!selectedProject||e.project===selectedProject);return '<div class="row between"><div><p class="eyebrow">Le savoir reste dans l’équipe</p><h1>Expertise partagée</h1></div>'+(can('conseiller','admin')?'<button data-act="addExpertise">Ajouter une fiche</button>':'')+'</div>'+(selectedProject?'<p>Fiches pour '+esc(project(selectedProject)?.name)+' <button class="secondary" data-act="allExpertise">Voir toutes les fiches</button></p>':'')+'<div class="grid">'+es.map(e=>'<article class="card"><span class="tag">'+esc(project(e.project)?.name)+'</span><h2 style="margin-top:18px">'+esc(e.title)+'</h2><p>'+esc(e.text)+'</p><small>'+esc(author(e.author))+' · '+date(e.created)+'</small></article>').join('')+'</div>'+(!es.length?'<div class="card empty">Aucune fiche pour cette activité. Le conseiller peut enrichir ce référentiel.</div>':'')}
+function documents(f){if(!f)return '<div class="empty">Aucun dossier accessible.</div>';const ds=db.list('documents').filter(d=>d.farmer===f.id);return '<div class="row between"><div><p class="eyebrow">Du terrain au contrat</p><h1>Dossier documentaire</h1></div>'+(can('conseiller','admin')?'<button data-act="addDocument">Déposer un document</button>':'')+'</div><div class="info">L’accord du comité est donné sur une autre plateforme. Son document puis le contrat sont déposés ici manuellement. Aucune décision automatique n’est déduite des pièces.</div><div class="card"><h2>'+userText(f.nom)+'</h2>'+ds.sort((a,b)=>b.created.localeCompare(a.created)).map(d=>'<article class="docs"><span class="badge '+(d.type==='Accord du comité'?'green':d.type==='Contrat'?'green':'amber')+'">'+esc(d.type)+'</span><h3 style="margin-top:10px">'+userText(d.name)+'</h3><p>'+esc(project(d.project)?.name||'Exploitation')+'</p><small>'+date(d.created)+' · '+userText(author(d.author))+'</small><p><button class="secondary" data-act="downloadDoc" data-id="'+d.id+'">Télécharger la pièce</button></p></article>').join('')+(!ds.length?'<div class="empty">Aucune pièce déposée pour cette exploitation.</div>':'')+'</div>'}
+function expertise(){let es=db.list('expertise').filter(e=>!selectedProject||e.project===selectedProject);return '<div class="row between"><div><p class="eyebrow">Le savoir reste dans l’équipe</p><h1>Expertise partagée</h1></div>'+(can('conseiller','admin')?'<button data-act="addExpertise">Ajouter une fiche</button>':'')+'</div>'+(selectedProject?'<p>Fiches pour '+esc(project(selectedProject)?.name)+' <button class="secondary" data-act="allExpertise">Voir toutes les fiches</button></p>':'')+'<div class="grid">'+es.map(e=>'<article class="card"><span class="tag">'+esc(project(e.project)?.name)+'</span><h2 style="margin-top:18px">'+userText(e.title,/^e[1-3]$/.test(e.id))+'</h2><p>'+userText(e.text,/^e[1-3]$/.test(e.id))+'</p><small>'+userText(author(e.author))+' · '+date(e.created)+'</small></article>').join('')+'</div>'+(!es.length?'<div class="card empty">Aucune fiche pour cette activité. Le conseiller peut enrichir ce référentiel.</div>':'')}
 function trainings(){let cat=project(selectedProject)?.category;return '<p class="eyebrow">Apprendre pour mieux préparer</p><h1>Formations</h1><p>Fiches pédagogiques de démonstration, sans certification ni suivi de progression.</p>'+(cat?'<div class="info">Activité choisie : '+esc(project(selectedProject)?.name)+' · <button class="secondary" data-act="allTraining">Voir toutes les formations</button></div>':'')+'<div class="grid">'+db.list('trainings').filter(t=>!cat||t.category===cat).map(t=>'<article class="card"><span class="tag">'+t.category+'</span><h2 style="margin-top:18px">'+esc(t.title)+'</h2><p>'+esc(t.text)+'</p><small>Contenu pédagogique fictif à faire valider avant un usage réel.</small></article>').join('')+'</div>'}
 function aids(){return fdaCatalog()}
 
-function profile(){let u=user(),f=farmer();return '<h1>Mon profil</h1><div class="split"><div><form class="card" id="accountForm"><h2>Mon compte</h2>'+field('nom','Nom',u.nom,'text',true)+field('direction','Direction',u.direction,'text',true)+field('oldPassword','Mot de passe actuel (pour le changer)','','password')+field('newPassword','Nouveau mot de passe','','password')+submit('Enregistrer mon compte')+'</form></div><div>'+(f?'<div class="card"><h2>Profil agriculteur importé</h2><p>'+esc(f.nom)+' · '+f.age+' ans · '+f.experience+' années d’expérience</p><p>'+esc(f.region)+' · '+esc(f.commune)+'</p><p>'+f.superficie+' ha · '+esc(f.foncier)+'</p><p>'+esc(f.materiel)+'</p><small>Source simulée : système externe. Données fictives.</small><p><button data-act="requestProfile">Demander une modification</button></p></div>':'')+'<div class="info">Les modifications du profil agriculteur ne prennent effet qu’après validation du conseiller.</div></div></div>'}
-function requests(){if(!can('conseiller','admin'))return '';let rs=db.list('requests').filter(r=>farmerList().some(f=>f.id===r.farmer));return '<h1>Demandes de modification</h1>'+rs.map(r=>'<article class="card"><div class="row between"><h2>'+esc(db.list('farmers').find(f=>f.id===r.farmer)?.nom)+'</h2>'+badge(r.status)+'</div><p>Nouvelle superficie : '+esc(r.changes.superficie)+' ha · Statut : '+esc(r.changes.foncier)+'</p><p>Commune : '+esc(r.changes.commune)+' · Matériel : '+esc(r.changes.materiel)+'</p><p>'+esc(r.reason)+'</p><small>'+date(r.created)+'</small>'+(r.status==='En attente'?'<p class="row"><button data-act="approveRequest" data-id="'+r.id+'">Valider</button><button class="danger" data-act="rejectRequest" data-id="'+r.id+'">Refuser</button></p>':'<p><small>Décision : '+esc(author(r.reviewer))+' · '+date(r.reviewed)+'</small></p>')+'</article>').join('')+(!rs.length?'<div class="card empty">Aucune demande de modification.</div>':'')}
-function users(){if(!can('admin'))return '';return '<div class="row between"><h1>Gestion des utilisateurs</h1><button data-act="editUser">Créer un compte</button></div><div class="card table"><table><thead><tr><th>Nom</th><th>Email</th><th>Rôle</th><th>État</th><th>Actions</th></tr></thead><tbody>'+db.list('users').map(u=>'<tr><td>'+esc(u.nom)+'</td><td>'+esc(u.email)+'</td><td>'+roles[u.role]+'</td><td>'+badge(u.actif?'Validée':'Refusée')+'</td><td><button class="secondary" data-act="editUser" data-id="'+u.id+'">Modifier</button> <button class="secondary" data-act="resetPassword" data-id="'+u.id+'">Mot de passe</button></td></tr>').join('')+'</tbody></table></div>'}
+function profile(){let u=user(),f=farmer();return '<h1>Mon profil</h1><div class="split"><div><form class="card" id="accountForm"><h2>Mon compte</h2>'+field('nom','Nom',u.nom,'text',true)+field('direction','Direction',u.direction,'text',true)+field('oldPassword','Mot de passe actuel (pour le changer)','','password')+field('newPassword','Nouveau mot de passe','','password')+submit('Enregistrer mon compte')+'</form></div><div>'+(f?'<div class="card"><h2>Profil agriculteur importé</h2><p>'+userText(f.nom)+' · '+f.age+' ans · '+f.experience+' années d’expérience</p><p>'+userText(f.region)+' · '+userText(f.commune)+'</p><p>'+f.superficie+' ha · '+esc(f.foncier)+'</p><p>'+userText(f.materiel)+'</p><small>Source simulée : système externe. Données fictives.</small><p><button data-act="requestProfile">Demander une modification</button></p></div>':'')+'<div class="info">Les modifications du profil agriculteur ne prennent effet qu’après validation du conseiller.</div></div></div>'}
+function requests(){if(!can('conseiller','admin'))return '';let rs=db.list('requests').filter(r=>farmerList().some(f=>f.id===r.farmer));return '<h1>Demandes de modification</h1>'+rs.map(r=>'<article class="card"><div class="row between"><h2>'+esc(db.list('farmers').find(f=>f.id===r.farmer)?.nom)+'</h2>'+badge(r.status)+'</div><p>Nouvelle superficie : '+esc(r.changes.superficie)+' ha · Statut : '+esc(r.changes.foncier)+'</p><p>Commune : '+userText(r.changes.commune)+' · Matériel : '+userText(r.changes.materiel)+'</p><p>'+userText(r.reason)+'</p><small>'+date(r.created)+'</small>'+(r.status==='En attente'?'<p class="row"><button data-act="approveRequest" data-id="'+r.id+'">Valider</button><button class="danger" data-act="rejectRequest" data-id="'+r.id+'">Refuser</button></p>':'<p><small>Décision : '+userText(author(r.reviewer))+' · '+date(r.reviewed)+'</small></p>')+'</article>').join('')+(!rs.length?'<div class="card empty">Aucune demande de modification.</div>':'')}
+function users(){if(!can('admin'))return '';return '<div class="row between"><h1>Gestion des utilisateurs</h1><button data-act="editUser">Créer un compte</button></div><div class="card table"><table><thead><tr><th>Nom</th><th>Email</th><th>Rôle</th><th>État</th><th>Actions</th></tr></thead><tbody>'+db.list('users').map(u=>'<tr><td>'+userText(u.nom)+'</td><td>'+userText(u.email)+'</td><td>'+roles[u.role]+'</td><td>'+badge(u.actif?'Validée':'Refusée')+'</td><td><button class="secondary" data-act="editUser" data-id="'+u.id+'">Modifier</button> <button class="secondary" data-act="resetPassword" data-id="'+u.id+'">Mot de passe</button></td></tr>').join('')+'</tbody></table></div>'}
 function dataView(){if(!can('admin'))return '';return '<h1>Outils de données</h1><div class="card"><h2>Vos données restent dans ce navigateur</h2><p>Les sauvegardes contiennent aussi les comptes et les pièces déposées. Utilisez uniquement des données fictives.</p><div class="row"><button data-act="export">Exporter</button><button class="secondary" data-act="import">Importer une sauvegarde</button><button class="danger" data-act="reset">Réinitialiser la démonstration</button></div></div>'}
 function openHistory(){let f=farmer();if(!guard('conseiller','admin')||!f)return;modal('Ajouter une activité annuelle','<form id="historyForm">'+field('year','Année',2026,'number',true)+field('activity','Culture ou élevage','','text',true)+field('area','Superficie (ha)',1,'number',true)+field('count','Nombre d’animaux',0,'number')+select('mode','Périmètre',['Irrigué','Bour favorable','Bour défavorable','Étable'],'Irrigué')+field('density','Densité','À préciser')+field('age','Âge de la plantation (ans)',0,'number')+field('feed','Fourrages et alimentation','Sans objet')+field('cost','Dépenses déclarées (MAD)',0,'number')+select('status','État',['En cours','Terminée','Vigilance'],'En cours')+textfield('note','Observations')+submit('Conserver dans l’historique')+'</form>')}
 function openDocument(){if(!guard('conseiller','admin')||!farmer())return;modal('Déposer une pièce au dossier','<form id="documentForm">'+select('type','Catégorie',['Justificatif du lien à la terre','Fiche du lien à la terre','Compte rendu de visite','Compte rendu d’entretien','Demande de crédit','Accord du comité','Contrat'],'Compte rendu de visite')+select('project','Projet associé',db.list('projects').map(p=>[p.id,p.name]),selectedProject||'p1')+'<label for="documentFile">Fichier local *</label><input id="documentFile" name="file" type="file" accept=".pdf,.png,.jpg,.jpeg,.txt" required><p><small>PDF, image ou texte ; maximum 1 Mo par fichier pour ce prototype. Aucun transfert réseau.</small></p>'+submit('Déposer et historiser')+'</form>')}
@@ -286,7 +290,7 @@ $('#loginForm').requestSubmit();return}if(a==='password'){let p=$('#password');p
 if(a==='menu'){let open=$('nav').classList.toggle('open');b.setAttribute('aria-expanded',String(open))}if(a==='logout'){try{localStorage.removeItem(NS+'session');sessionStorage.removeItem(NS+'session')}catch{}session=null;selectedProject='';result=null;page='home';render()}if(a==='choose'){if(!project(i)||!farmer())return;selectedProject=i;simulationDraft=null;result=null;page='simulate';render()}if(a==='clearSearch'){search='';category='Tous';render()}if(a==='historyScope'){if(!guard('agriculteur','conseiller','admin')||!['both','active','finished'].includes(i))return;historyScope=i;render()}
 if(a==='requestAccompaniment')openAccompaniment(i);
 if(a==='redoSimulation'){if(!guard('agriculteur','conseiller','admin'))return;const sim=accessibleSimulation(i);if(!sim)return;selectedProject=sim.project;activeFarmer=sim.farmer;simulationDraft={...sim.params};result=null;page='simulate';render();toast('Ajustez les paramètres puis calculez. L’enregistrement créera une nouvelle simulation.')}
-if(a==='takeAccompaniment'){if(!guard('conseiller'))return;const r=visibleAccompaniments().find(r=>r.id===i&&r.advisor===user().id&&r.status==='Envoyée à l’agence');if(!r)return;modal('Prendre en charge cette demande','<p>Vous confirmez l’accompagnement de <strong>'+esc(r.farmerSnapshot.nom)+'</strong> pour <strong>'+esc(r.projectName)+'</strong>.</p><p>Cette prise en charge ne vaut pas accord de crédit.</p><button data-act="confirmTakeAccompaniment" data-id="'+r.id+'">Confirmer la prise en charge</button>')}
+if(a==='takeAccompaniment'){if(!guard('conseiller'))return;const r=visibleAccompaniments().find(r=>r.id===i&&r.advisor===user().id&&r.status==='Envoyée à l’agence');if(!r)return;modal('Prendre en charge cette demande','<p>Vous confirmez l’accompagnement de <strong>'+userText(r.farmerSnapshot.nom)+'</strong> pour <strong>'+esc(r.projectName)+'</strong>.</p><p>Cette prise en charge ne vaut pas accord de crédit.</p><button data-act="confirmTakeAccompaniment" data-id="'+r.id+'">Confirmer la prise en charge</button>')}
 if(a==='confirmTakeAccompaniment'){if(!guard('conseiller'))return;const r=visibleAccompaniments().find(r=>r.id===i&&r.advisor===user().id&&r.status==='Envoyée à l’agence');if(!r)return;if(db.upsert('accompaniments',{...r,status:'Prise en charge',takenAt:today(),takenBy:user().id,takenByName:user().nom})){closeModal();render();toast('Demande prise en charge.')}}
 if(a==='fdaFamily'){if(!guard('agriculteur','conseiller','admin'))return;fdaFamily=i||'';render()}
 if(a==='fdaStandalone')openFda(i,{mode:'standalone'});
@@ -313,5 +317,803 @@ if(form.id==='progressForm'){if(!guard('conseiller','admin'))return;const h=db.l
 if(form.id==='historyForm'){if(!guard('conseiller','admin')||!farmer())return;if(!Number.isInteger(+p.year)||+p.year<1900||+p.year>2100||['area','count','age','cost'].some(k=>!Number.isFinite(+p[k])||+p[k]<0)||!Number.isInteger(+p.count)){toast('Vérifiez les valeurs numériques et l’année.',true);return}if(db.upsert('history',{...p,id:id(),farmer:farmer().id,year:+p.year,area:+p.area,count:+p.count,age:+p.age,cost:+p.cost,author:user().id,created:today()})){closeModal();render();toast('Activité historisée.')}return}if(form.id==='expertiseForm'){if(!guard('conseiller','admin'))return;if(db.upsert('expertise',{...p,id:id(),author:user().id,created:today()})){closeModal();render();toast('Expertise conservée.')}return}if(form.id==='documentForm'){if(!guard('conseiller','admin')||!farmer())return;let file=form.elements.file.files[0],fid=farmer().id,uid=user().id;if(!file||file.size>1048576||!(/\.(pdf|png|jpe?g|txt)$/i.test(file.name))){toast('Choisissez un PDF, une image ou un texte de 1 Mo maximum.',true);return}let reader=new FileReader();reader.onload=()=>{if(!can('conseiller','admin')||user().id!==uid||!farmerList().some(f=>f.id===fid))return;let d={id:id(),farmer:fid,project:p.project,type:p.type,name:file.name,mime:file.type,base64:reader.result.split(',')[1],author:uid,created:today()};if(db.upsert('documents',d)){closeModal();render();toast('Document déposé et historisé.')}};reader.onerror=()=>toast('Lecture du fichier impossible.',true);reader.readAsDataURL(file);return}if(form.id==='userForm'){if(!guard('admin'))return;let all=db.list('users'),old=all.find(u=>u.id===form.dataset.id),active=p.actif==='true';if(all.some(u=>u.email.toLowerCase()===p.email.toLowerCase()&&u.id!==old?.id)){toast('Cette adresse est déjà utilisée.',true);return}if(old?.role==='admin'&&old.actif&&(!active||p.role!=='admin')&&all.filter(u=>u.role==='admin'&&u.actif).length<=1){toast('Le dernier administrateur actif doit être conservé.',true);return}if(db.upsert('users',{...old,...p,id:old?.id||id(),actif:active,motDePasse:old?.motDePasse||p.motDePasse,dateCreation:old?.dateCreation||today()})){closeModal();render();toast('Compte enregistré.')}return}if(form.id==='resetPasswordForm'){if(!guard('admin'))return;let u=db.list('users').find(u=>u.id===form.dataset.id);if(u&&db.upsert('users',{...u,motDePasse:p.newPassword})){closeModal();toast('Mot de passe réinitialisé.')}}});
 document.addEventListener('change',e=>{if(e.target.id==='farmerSelect'){if(!guard('conseiller','admin'))return;if(!farmerList().some(f=>f.id===e.target.value))return;activeFarmer=e.target.value;result=null;render()}if(e.target.id==='yearFilter'){history.year=e.target.value;render()}if(e.target.id==='category'){category=e.target.value;render()}});document.addEventListener('input',e=>{if(e.target.id==='projectSearch'){search=e.target.value;let pos=e.target.selectionStart;render();$('#projectSearch').focus();$('#projectSearch').setSelectionRange(pos,pos)}});
 $('#importFile').addEventListener('change',e=>{if(!guard('admin'))return;let file=e.target.files[0];e.target.value='';if(!file)return;let reader=new FileReader();reader.onload=()=>{if(!can('admin'))return;try{const parsed=JSON.parse(reader.result),required=['users','farmers','history','projects','documents','simulations','requests','expertise','trainings','aids'];if(!parsed||Array.isArray(parsed)||parsed[NS+'schema_version']!==VERSION||Object.keys(parsed).some(k=>!k.startsWith(NS)||k===NS+'session')||required.some(k=>!Array.isArray(parsed[NS+k])))throw Error();if(!parsed[NS+'users'].some(u=>u.role==='admin'&&u.actif)||parsed[NS+'users'].some(u=>!u.id||!u.email||!u.nom||!roles[u.role]||typeof u.motDePasse!=='string')||parsed[NS+'projects'].some(p=>!p.id||!p.name||!['Plantations','Élevage'].includes(p.category)))throw Error();if(parsed[NS+'accompaniments']!==undefined&&(!Array.isArray(parsed[NS+'accompaniments'])||parsed[NS+'accompaniments'].some(r=>!r||!r.id||!r.farmerSnapshot||!r.snapshot?.params||!['Envoyée à l’agence','Prise en charge'].includes(r.status))))throw Error();if(parsed[NS+'simulations'].some(s=>!validFdaEstimates(s.fdaEstimates))||(parsed[NS+'accompaniments']||[]).some(r=>!validFdaEstimates(r.snapshot?.fdaEstimates)))throw Error();const fids=new Set(parsed[NS+'farmers'].map(f=>f.id)),pids=new Set(parsed[NS+'projects'].map(p=>p.id));if((parsed[NS+'accompaniments']||[]).some(r=>!fids.has(r.farmer)||!pids.has(r.project)))throw Error();if(['history','documents','simulations','requests'].some(k=>parsed[NS+k].some(x=>!x.id||!fids.has(x.farmer)))||parsed[NS+'documents'].some(d=>!pids.has(d.project)||!d.name||(!d.text&&!d.base64)))throw Error();modal('Importer cette sauvegarde','<p>Cette opération remplacera les données de démonstration et déconnectera la session. Exportez votre sauvegarde actuelle avant de poursuivre.</p><button class="danger" id="confirmImport">Remplacer les données</button>');$('#confirmImport').onclick=()=>{if(!guard('admin'))return;const previous={};keys().forEach(k=>previous[k]=fallback?memory[k]:localStorage.getItem(k));try{const target=fallback?memory:localStorage;keys().forEach(k=>fallback?delete memory[k]:localStorage.removeItem(k));Object.entries(parsed).forEach(([k,v])=>{if(fallback)memory[k]=JSON.stringify(v);else localStorage.setItem(k,JSON.stringify(v))});sessionStorage.removeItem(NS+'session');session=null;legacy=false;page='home';closeModal();render();toast('Sauvegarde importée. Reconnectez-vous.')}catch{keys().forEach(k=>fallback?delete memory[k]:localStorage.removeItem(k));Object.entries(previous).forEach(([k,v])=>{if(fallback)memory[k]=v;else localStorage.setItem(k,v)});toast('Import impossible : données précédentes conservées.',true)}}}catch{toast('Sauvegarde invalide ou incompatible. Aucune donnée remplacée.',true)}};reader.onerror=()=>toast('Lecture de la sauvegarde impossible.',true);reader.readAsText(file)});
-render();
+// Langue d’affichage uniquement : les données, valeurs des options et règles restent canoniques.
+const DARIJA={
+  "Crédit Agricole du Maroc": "القرض الفلاحي للمغرب",
+  "AgriImpact · Cultivons vos projets": "AgriImpact · نطوّرو مشاريعكم معاكم",
+  "Bienvenue sur AgriImpact": "مرحبا بكم فـ AgriImpact",
+  "Accompagner aujourd’hui. Transmettre demain.": "نواكبو اليوم ونخليو المعرفة لغدا.",
+  "Votre exploitation, vos projets et le savoir qui les fait grandir.": "الضيعة ديالكم، المشاريع ديالكم، والمعرفة اللي كتعاونها تكبر.",
+  "Se connecter": "دخول للحساب",
+  "Adresse email": "البريد الإلكتروني",
+  "Mot de passe": "كلمة السر",
+  "Afficher": "بيّن",
+  "Masquer": "خبّي",
+  "Se souvenir de moi": "تذكّر الحساب ديالي",
+  "Comptes de démonstration": "حسابات باش تجرّبو المنصة",
+  "Choisissez un compte pour ouvrir directement son espace de démonstration, sans saisir de mot de passe. Le formulaire ci-dessus reste disponible pour une connexion manuelle.": "اختارو حساب باش تدخلو مباشرة للتجربة بلا ما تكتبو كلمة السر. ويمكن حتى تدخلو يدويا بالخانات اللي لفوق.",
+  "Personnes fictives. Aucun accès à un système bancaire réel.": "هاد الناس غير أمثلة للتجربة. ما كاين حتى ربط بنظام بنكي حقيقي.",
+  "Ouvrir :": "دخول لحساب:",
+  "Déconnexion": "خروج من الحساب",
+  "Agriculteur": "الفلاح",
+  "Conseiller": "المستشار الفلاحي",
+  "Administrateur": "مسؤول المنصة",
+  "Espace": "فضاء",
+  "Vue d’ensemble": "نظرة عامة",
+  "Historique d’exploitation": "تاريخ الضيعة",
+  "Mon historique d’exploitation": "تاريخ الضيعة ديالي",
+  "Banque de projets": "بنك المشاريع",
+  "Mes simulations": "المحاكاة ديالي",
+  "Demandes reçues": "الطلبات اللي توصلنا بها",
+  "Mes demandes d’accompagnement": "طلبات المواكبة ديالي",
+  "Demandes d’accompagnement": "طلبات المواكبة",
+  "Dossier documentaire": "ملف الوثائق",
+  "Expertise partagée": "الخبرة المشتركة",
+  "Formations": "التكوين",
+  "Subventions": "الدعم والإعانات",
+  "Mon profil": "الملف ديالي",
+  "Modifications de profil": "تعديلات الملف",
+  "Utilisateurs": "المستخدمين",
+  "Outils de données": "تدبير المعطيات",
+  "Exploitation consultée": "الضيعة اللي كنشوفو دابا",
+  "Données de démonstration fictives · Prototype local hors ligne": "معطيات خيالية للتجربة · نموذج كيخدم بلا إنترنت",
+  "Données de démonstration fictives": "معطيات خيالية للتجربة",
+  "Crédit Agricole du Maroc — POC confidentiel — Programme Intrapreneuriat": "القرض الفلاحي للمغرب — نموذج تجريبي سري — برنامج المقاولة الداخلية",
+  "POC confidentiel · Données fictives · Sans valeur contractuelle": "نموذج سري · معطيات خيالية · ماشي وثيقة تعاقدية",
+  "AgriImpact · Rapport de simulation": "AgriImpact · تقرير المحاكاة",
+  "Rapport de simulation": "تقرير المحاكاة",
+  "Données de démonstration fictives · Sans valeur contractuelle": "معطيات خيالية للتجربة · ماشي وثيقة تعاقدية",
+  "Votre exploitation, au fil du temps": "الضيعة ديالكم عام من بعد عام",
+  "Consulter le profil agriculteur →": "شوف ملف الفلاح ←",
+  "Retrouvez les activités, le matériel et les observations année après année.": "تلقاو الأنشطة والمعدات والملاحظات ديال كل عام.",
+  "Explorez les plantations et l’élevage, puis préparez votre simulation.": "شوفو مشاريع الغرس وتربية الماشية، ووجدو المحاكاة ديالكم.",
+  "Repérez les pistes d’aide à examiner avec votre conseiller.": "شوفو فرص الدعم اللي تقدروا تناقشوها مع المستشار ديالكم.",
+  "Explorer →": "اكتشف ←",
+  "Mémoire de l’exploitation": "ذاكرة الضيعة",
+  "Observations attribuées et datées": "كل ملاحظة مسجل فيها شكون كتبها وفوقاش",
+  "Votre accompagnateur": "المستشار اللي كيواكبكم",
+  "Votre accompagnement": "المواكبة ديالكم",
+  "Agence": "الوكالة",
+  "Emplacement": "المكان",
+  "Email": "البريد الإلكتروني",
+  "Téléphone": "رقم الهاتف",
+  "WhatsApp": "واتساب",
+  "Coordonnées fictives de démonstration ; numéros masqués, aucun message envoyé.": "معلومات اتصال غير للتجربة؛ الأرقام مخبّية وما كتتصيفط حتى رسالة.",
+  "Ouvrir le dossier": "فتح الملف",
+  "Une mémoire qui reste": "ذاكرة كتبقى محفوظة",
+  "Ajouter une activité": "زيد نشاط",
+  "Terrains": "الأراضي",
+  "Matériel déclaré": "المعدات المصرّح بها",
+  "Année": "العام",
+  "Toutes les années": "كاع الأعوام",
+  "Tous les projets": "كاع المشاريع",
+  "En cours uniquement": "غير المشاريع اللي مازال خدامة",
+  "Anciens / terminés uniquement": "غير المشاريع السابقة والمسالية",
+  "Les projets en vigilance restent inclus dans « En cours ».": "المشاريع اللي خاصها انتباه كتبقى ضمن المشاريع اللي مازال خدامة.",
+  "Aucune activité pour cette année.": "ما كاين حتى نشاط مسجل فهاد العام.",
+  "Campagne": "الموسم",
+  "Dépenses déclarées :": "المصاريف المصرّح بها:",
+  "Montant fictif de démonstration": "مبلغ خيالي غير للتجربة",
+  "Lecture technique": "معطيات تقنية للمستشار",
+  "Densité :": "كثافة الغرس:",
+  "Âge :": "العمر:",
+  "Alimentation :": "التغذية:",
+  "Renseigné par": "سجّلها",
+  "Voir le suivi du projet et les blocages": "شوف تتبع المشروع والعراقيل",
+  "Fiche enregistrée": "البطاقة تسجلات",
+  "Activité en cours": "النشاط مازال خدام",
+  "Activité terminée": "النشاط سالا",
+  "Non terminée": "مازال ما سالاش",
+  "Clôturée": "مسالي",
+  "Blocage déclaré": "عائق مصرّح به",
+  "Point de vigilance à clarifier": "نقطة خاصها الانتباه والتوضيح",
+  "Aucun blocage renseigné.": "ما تسجّل حتى عائق.",
+  "Dernière observation :": "آخر ملاحظة:",
+  "Les étapes non documentées ne sont pas reconstituées. Une activité terminée n’implique pas un accord de crédit.": "المراحل اللي ما مسجلاش ما كنزيدوهاش من عندنا. إلا سالا النشاط، هادشي ما كيعنيش بالضرورة الموافقة على القرض.",
+  "Mettre à jour le suivi": "حيّن تتبع المشروع",
+  "État de l’activité": "وضعية النشاط",
+  "Observation de suivi": "ملاحظة على التتبع",
+  "Blocage déclaré (laisser vide si aucun)": "العائق المسجل، خلّيو الخانة خاوية إلا ما كاينش",
+  "Enregistrer le suivi": "حفظ التتبع",
+  "Suivi historisé.": "تسجّل التتبع فالتاريخ ديال المشروع.",
+  "En cours": "مازال خدام",
+  "Terminée": "سالات",
+  "Vigilance": "خاص الانتباه",
+  "Validée": "مقبولة",
+  "Refusée": "مرفوضة",
+  "En attente": "فانتظار الجواب",
+  "Des idées à votre projet": "من الفكرة للمشروع",
+  "Un catalogue détaillé à explorer avec votre conseiller. La région du profil accompagne chaque simulation ; l’adaptation agronomique reste à confirmer.": "دليل مفصّل تشوفوه مع المستشار ديالكم. الجهة ديال الضيعة كتبان مع المحاكاة، وملاءمة المشروع للأرض والمناخ خاصها التأكيد.",
+  "Rechercher": "قلّب",
+  "Pommier, bovins, fourrages…": "التفاح، البقر، العلف…",
+  "Catégorie": "الصنف",
+  "Tous": "الكل",
+  "Plantations": "الغرس والزراعات",
+  "Élevage": "تربية الماشية",
+  "Arboriculture": "الأشجار المثمرة",
+  "Céréales": "الحبوب",
+  "Fourrages": "الأعلاف",
+  "Maraîchage": "الخضرة",
+  "Petits ruminants": "الغنم والماعز",
+  "Bovins": "الأبقار",
+  "Volailles": "الدواجن",
+  "Pommier": "شجر التفاح",
+  "Poirier": "شجر الإجاص",
+  "Prunier": "شجر البرقوق",
+  "Olivier": "شجر الزيتون",
+  "Amandier": "شجر اللوز",
+  "Grenadier": "شجر الرمان",
+  "Blé tendre": "القمح الطري",
+  "Luzerne": "الفصة",
+  "Tomate": "مطيشة",
+  "Bovins laitiers": "الأبقار الحلوب",
+  "Taurillons de race pure ≤ 300 kg": "عجول ذكور من سلالة نقية بوزن ≤ 300 كلغ",
+  "Ovins": "الأغنام",
+  "Caprins": "الماعز",
+  "Apiculture": "تربية النحل",
+  "Aviculture": "تربية الدواجن",
+  "Ruches": "خلايا النحل",
+  "Région à vérifier": "الجهة خاصها التأكيد",
+  "Montagne / région à vérifier": "منطقة جبلية / الجهة خاصها التأكيد",
+  "Référence PDF disponible": "مرجع الحساب متوفر فـ PDF",
+  "Chiffrage à compléter": "خاص نكمّلو معطيات الحساب",
+  "Explorer et simuler →": "شوف المشروع ودير محاكاة ←",
+  "Aucun projet trouvé.": "ما لقينا حتى مشروع بهاد البحث.",
+  "Afficher tout le catalogue": "بيّن كاع المشاريع",
+  "Sélectionnez un projet depuis la banque.": "اختارو مشروع من بنك المشاريع.",
+  "Ouvrir le catalogue": "فتح دليل المشاريع",
+  "← Banque de projets": "→ بنك المشاريع",
+  "Préparer ma simulation": "نوجد المحاكاة ديالي",
+  "Implantation / commune": "مكان المشروع / الجماعة",
+  "Implantation": "مكان المشروع",
+  "Superficie du projet (ha)": "مساحة المشروع بالهكتار",
+  "Superficie (ha)": "المساحة بالهكتار",
+  "Périmètre": "نظام السقي",
+  "Irrigué": "مسقي",
+  "Bour favorable": "بور ملائم",
+  "Bour défavorable": "بور غير ملائم",
+  "Conduite technique": "المستوى التقني",
+  "Conduite": "طريقة التدبير",
+  "Basique": "بسيط",
+  "Intermédiaire": "متوسط",
+  "Intensive": "مكثّف",
+  "Stade de la plantation": "مرحلة الغرس",
+  "Stade": "المرحلة",
+  "Investissement": "الاستثمار",
+  "1ère année": "العام الأول",
+  "2ème année": "العام الثاني",
+  "3ème année": "العام الثالث",
+  "4ème année": "العام الرابع",
+  "Adulte": "غرس بالغ",
+  "Nombre d’animaux": "عدد رؤوس الماشية",
+  "Superficie de l’étable (m²)": "مساحة الإسطبل بالمتر المربع",
+  "Ressources fourragères / unités fourragères disponibles": "الأعلاف / الوحدات العلفية المتوفرة",
+  "Aliments du bétail et achats prévus": "تغذية الماشية والمشتريات المتوقعة",
+  "Précipitations observées ou attendues (information libre)": "التساقطات اللي كانت أو المتوقعة، معلومة اختيارية",
+  "Concurrence / demandes similaires": "المنافسة / طلبات مشاريع بحال هادا",
+  "Non renseignée": "ما تعمّراتش",
+  "Non renseigné": "ما تعمّرش",
+  "Non renseignées": "ما تعمّروش",
+  "À examiner": "خاص الدراسة",
+  "Plusieurs demandes similaires signalées": "تسجلو بزاف ديال الطلبات على نفس النشاط",
+  "Pluie et concurrence : informations conservées, sans effet calculé sur le prix. Aucun revenu ni bénéfice n’est prédit.": "التساقطات والمنافسة كيتسجلو غير كمعلومات، وما كيبدلوش الثمن فالحساب. ما كنحسبوش مداخيل ولا أرباح متوقعة.",
+  "Calculer les références": "حساب التقدير",
+  "Estimation indicative": "تقدير استرشادي",
+  "Référence vérifiée": "مرجع الحساب متحقق منه",
+  "Référence indisponible": "مرجع الحساب ما متوفرش",
+  "Référence à compléter": "خاص تكميل مرجع الحساب",
+  "Investissement indicatif de plantation": "تقدير استثمار الغرس",
+  "Charges de production indicatives": "تقدير مصاريف الإنتاج",
+  "Coût total indicatif · taurillons ≤ 300 kg": "تقدير التكلفة الإجمالية لعجول ذكور بوزن ≤ 300 كلغ",
+  "Enregistrer cette simulation": "حفظ هاد المحاكاة",
+  "Renseignez votre projet pour afficher une fourchette ou les informations restant à confirmer.": "عمّرو معطيات المشروع باش يبان تقدير التكلفة أو المعطيات اللي خاصها التأكيد.",
+  "Pour aller plus loin": "باش تزيدو توجدو المشروع",
+  "Consulter l’expertise": "شوف الخبرة المتوفرة",
+  "Examiner les aides possibles": "شوف الدعم الممكن",
+  "Simulations enregistrées": "المحاكاة المسجلة",
+  "Les références et informations de contexte restent attachées à chaque projet.": "مراجع الحساب ومعلومات المشروع كتبقى محفوظة معاه.",
+  "Demander un accompagnement": "طلب المواكبة",
+  "Refaire une simulation": "دير محاكاة جديدة",
+  "Télécharger le PDF": "حمّل ملف PDF",
+  "Étudier les aides FDA": "شوف دعم صندوق التنمية الفلاحية",
+  "Aucune simulation enregistrée.": "ما كاينة حتى محاكاة محفوظة.",
+  "Choisir un projet": "اختيار مشروع",
+  "Pluie :": "التساقطات:",
+  "Concurrence :": "المنافسة:",
+  "Nouveau calcul": "حساب جديد",
+  "Les paramètres sont conservés. Aucun montant n’est inventé.": "المعطيات كتبقى محفوظة. ما كنزيدو حتى مبلغ بلا مرجع.",
+  "Simulation enregistrée.": "تحفظات المحاكاة.",
+  "Indiquez une superficie positive ou un nombre entier d’animaux.": "دخلو مساحة أكبر من الصفر، أو عدد صحيح لرؤوس الماشية.",
+  "Ajustez les paramètres puis calculez. L’enregistrement créera une nouvelle simulation.": "بدلو المعطيات وعاودو الحساب. الحفظ غادي يزيد محاكاة جديدة.",
+  "De la simulation à l’accompagnement": "من المحاكاة للمواكبة",
+  "Copie conservée à l’envoi": "نسخة محفوظة وقت الإرسال",
+  "Envoyée à l’agence": "تصيفطات للوكالة",
+  "Prise en charge": "المستشار تكلف بالطلب",
+  "Destinataire à l’envoi :": "توجّه الطلب لـ:",
+  "Envoyée le": "تصيفطات نهار",
+  "Contact communiqué :": "معلومات الاتصال اللي تعطاو:",
+  "Téléphone non renseigné": "رقم الهاتف ما تعمّرش",
+  "Email non renseigné": "البريد الإلكتروني ما تعمّرش",
+  "Voir les données envoyées et le suivi": "شوف المعطيات اللي تصيفطات والتتبع",
+  "En attente de prise en charge par le conseiller.": "كنستناو المستشار يتكلف بالطلب.",
+  "Prendre en charge": "نتكلف بهاد الطلب",
+  "Confirmer la prise en charge": "تأكيد التكلف بالطلب",
+  "Prendre en charge cette demande": "التكلف بهاد الطلب",
+  "Vous confirmez l’accompagnement de": "كتأكدو مواكبة",
+  "Cette prise en charge ne vaut pas accord de crédit.": "التكلف بهاد الطلب ما كيعنيش الموافقة على القرض.",
+  "Aucune demande d’accompagnement pour ce profil.": "ما كاين حتى طلب مواكبة فهاد الحساب.",
+  "Consulter les simulations": "شوف المحاكاة",
+  "Objet de la demande": "موضوع الطلب",
+  "Téléphone de contact (facultatif)": "رقم الهاتف للتواصل، اختياري",
+  "Email de contact (facultatif)": "البريد الإلكتروني للتواصل، اختياري",
+  "Besoin d’accompagnement (facultatif)": "شنو المواكبة اللي محتاجينها، اختياري",
+  "Précisez les points à examiner avec votre conseiller…": "وضّحو النقط اللي بغيتو تناقشوها مع المستشار…",
+  "Confirmer et envoyer à l’agence": "تأكيد وإرسال للوكالة",
+  "Destinataire :": "غادي يتصيفط لـ:",
+  "Projet :": "المشروع:",
+  "Accompagnement —": "المواكبة —",
+  "Une copie des données ci-dessous sera conservée à l’envoi. La demande ne déclenche ni crédit ni travaux.": "نسخة من هاد المعطيات غادي تبقى محفوظة وقت الإرسال. هاد الطلب ما كيبدا لا قرض لا أشغال.",
+  "« Envoyée à l’agence » confirme l’enregistrement local de la demande pour le conseiller affecté. « Prise en charge » signifie qu’il a accepté de l’accompagner. Aucun de ces états ne vaut accord de financement. Ce prototype ne transmet pas de demande à une agence réelle.": "«تصيفطات للوكالة» كتعني الطلب تسجل فهاد المتصفح للمستشار المعين. «المستشار تكلف بالطلب» كتعني قبل يواكبو. حتى وضعية ما كتعني الموافقة على التمويل. هاد النموذج ما كيصيفطش طلب لوكالة حقيقية.",
+  "Demande enregistrée pour votre conseiller dans ce prototype local.": "تسجل الطلب للمستشار ديالكم فهاد النموذج المحلي.",
+  "Demande prise en charge.": "المستشار تكلف بالطلب.",
+  "Précisez l’objet de votre demande.": "وضّحو موضوع الطلب ديالكم.",
+  "Aucun conseiller actif affecté : contactez l’administrateur pour compléter l’affectation.": "ما كاين حتى مستشار نشيط معين لهاد الضيعة. تواصلو مع مسؤول المنصة باش يكمل التعيين.",
+  "La simulation ou son conseiller ne sont plus disponibles. Fermez ce formulaire et réessayez.": "المحاكاة أو المستشار ديالها ما بقاش متوفر. سدّو هاد النافذة وعاودو جربو.",
+  "Espace chargé de clientèle agricole": "فضاء المكلف بالزبناء الفلاحيين",
+  "Voir les demandes d’accompagnement reçues →": "شوف طلبات المواكبة اللي توصلنا بها ←",
+  "Demandes à prendre en charge": "طلبات كتسنى المستشار يتكلف بها",
+  "Ouvrir les demandes reçues": "فتح الطلبات اللي توصلنا بها",
+  "Demandes prises en charge": "الطلبات اللي تكلف بها المستشار",
+  "Le suivi reste visible à l’agriculteur.": "الفلاح كيقدر يبقى يشوف التتبع.",
+  "Aucune exploitation affectée": "ما تعينات حتى ضيعة",
+  "Choisissez une exploitation dans la liste en haut de page.": "اختارو ضيعة من اللائحة اللي لفوق.",
+  "Consulter son historique": "شوف تاريخ الضيعة",
+  "De la demande à l’accompagnement": "من الطلب للمواكبة",
+  "Ouvrez": "فتحو",
+  "pour consulter les données de la simulation et les besoins transmis par vos agriculteurs. Cliquez sur": "باش تشوفو معطيات المحاكاة وطلبات الفلاحين اللي كتواكبوهم. كليكو على",
+  "pour accepter l’accompagnement.": "باش تقبلو المواكبة.",
+  "Pour tester une nouvelle demande : compte Youssef → Mes simulations → Demander un accompagnement, puis reconnectez-vous avec Salma dans ce même navigateur.": "باش تجربو طلب جديد: دخلو لحساب يوسف ← المحاكاة ديالي ← طلب المواكبة، ومن بعد دخلو لحساب سلمى فنفس المتصفح.",
+  "Du terrain au contrat": "من الأرض للعقد",
+  "L’accord du comité est donné sur une autre plateforme. Son document puis le contrat sont déposés ici manuellement. Aucune décision automatique n’est déduite des pièces.": "اللجنة كتعطي الموافقة فمنصة أخرى. الوثيقة ديالها ومن بعدها العقد كيتحطو هنا يدويا. الوثائق بوحدها ما كتعطي حتى قرار أوتوماتيكي.",
+  "Déposer un document": "زيد وثيقة",
+  "Déposer une pièce au dossier": "زيد وثيقة فالملف",
+  "Justificatif du lien à la terre": "وثيقة كتثبت العلاقة القانونية بالأرض",
+  "Fiche du lien à la terre": "بطاقة العلاقة بالأرض",
+  "Compte rendu de visite": "تقرير الزيارة",
+  "Compte rendu d’entretien": "تقرير المقابلة",
+  "Demande de crédit": "طلب القرض",
+  "Accord du comité": "موافقة اللجنة",
+  "Contrat": "العقد",
+  "Projet associé": "المشروع المرتبط بالوثيقة",
+  "Fichier local": "ملف من الجهاز",
+  "PDF, image ou texte ; maximum 1 Mo par fichier pour ce prototype. Aucun transfert réseau.": "PDF أو صورة أو نص؛ الحد الأقصى 1 ميغا لكل ملف فهاد النموذج. ما كاين حتى إرسال عبر الشبكة.",
+  "Déposer et historiser": "حط الوثيقة وسجلها فالتاريخ",
+  "Télécharger la pièce": "حمّل الوثيقة",
+  "Aucune pièce déposée pour cette exploitation.": "ما تحطات حتى وثيقة لهاد الضيعة.",
+  "Document déposé et historisé.": "تحطات الوثيقة وتسجلات فالتاريخ.",
+  "Document inaccessible.": "ما عندكمش الولوج لهاد الوثيقة.",
+  "Le savoir reste dans l’équipe": "الخبرة كتبقى عند الفريق",
+  "Ajouter une fiche": "زيد بطاقة",
+  "Voir toutes les fiches": "شوف كاع البطاقات",
+  "Fiches pour": "بطاقات ديال",
+  "Aucune fiche pour cette activité. Le conseiller peut enrichir ce référentiel.": "ما كاينة حتى بطاقة لهاد النشاط. المستشار يقدر يزيد المعرفة فهاد الدليل.",
+  "Conserver une expertise": "حفظ الخبرة",
+  "Activité": "النشاط",
+  "Titre": "العنوان",
+  "Conseils et points de vigilance": "نصائح ونقط خاصها الانتباه",
+  "Conserver la fiche": "حفظ البطاقة",
+  "Expertise conservée.": "تحفظات الخبرة.",
+  "Apprendre pour mieux préparer": "نتعلمو باش نوجدو مزيان",
+  "Fiches pédagogiques de démonstration, sans certification ni suivi de progression.": "بطاقات تكوين غير للتجربة، بلا شهادة وبلا تتبع التقدم.",
+  "Activité choisie :": "النشاط اللي تختار:",
+  "Voir toutes les formations": "شوف كاع التكوينات",
+  "Contenu pédagogique fictif à faire valider avant un usage réel.": "محتوى تكويني للتجربة، خاصو يتراجع ويتصادق عليه قبل الاستعمال الحقيقي.",
+  "Mon compte": "الحساب ديالي",
+  "Nom": "الاسم",
+  "Direction": "المديرية",
+  "Mot de passe actuel (pour le changer)": "كلمة السر الحالية إلا بغيتو تبدلوها",
+  "Nouveau mot de passe": "كلمة السر الجديدة",
+  "Enregistrer mon compte": "حفظ الحساب ديالي",
+  "Profil agriculteur importé": "ملف الفلاح المستورد",
+  "Source simulée : système externe. Données fictives.": "المصدر غير محاكى: نظام خارجي. المعطيات خيالية.",
+  "Demander une modification": "طلب تعديل",
+  "Les modifications du profil agriculteur ne prennent effet qu’après validation du conseiller.": "التعديلات ديال ملف الفلاح ما كتطبقش حتى كيوافق عليها المستشار.",
+  "Statut du terrain": "الوضعية القانونية للأرض",
+  "Archia": "أرض عرشية",
+  "Joumouâ": "أرض جماعية",
+  "Propriété": "ملكية",
+  "Location": "كراء",
+  "Commune": "الجماعة",
+  "Matériel": "المعدات",
+  "Motif de la demande": "سبب الطلب",
+  "Envoyer au conseiller": "صيفط للمستشار",
+  "Demandes de modification": "طلبات التعديل",
+  "Nouvelle superficie :": "المساحة الجديدة:",
+  "Statut :": "الوضعية:",
+  "Décision :": "القرار:",
+  "Valider": "وافق",
+  "Refuser": "رفض",
+  "Aucune demande de modification.": "ما كاين حتى طلب تعديل.",
+  "Confirmer la décision": "تأكيد القرار",
+  "La demande sera": "الطلب غادي يكون",
+  "validée et le profil mis à jour.": "مقبول وغادي يتحيّن الملف.",
+  "refusée ; le profil sera conservé.": "مرفوض والملف غادي يبقى كيف ما هو.",
+  "Confirmer": "تأكيد",
+  "Compte mis à jour.": "تحيّن الحساب.",
+  "Demande envoyée au conseiller.": "تصيفط الطلب للمستشار.",
+  "Décision enregistrée.": "تسجّل القرار.",
+  "Gestion des utilisateurs": "تدبير المستخدمين",
+  "Créer un compte": "زيد حساب جديد",
+  "Modifier le compte": "بدّل معلومات الحساب",
+  "Rôle": "الدور",
+  "État": "الوضعية",
+  "Actions": "الإجراءات",
+  "Modifier": "بدّل",
+  "Réinitialiser le mot de passe": "عاود عيّن كلمة السر",
+  "Mot de passe initial": "كلمة السر الأولى",
+  "Actif": "نشيط",
+  "Désactivé": "متوقف",
+  "Enregistrer": "حفظ",
+  "Réinitialiser": "بداية من جديد",
+  "Compte enregistré.": "تحفظ الحساب.",
+  "Mot de passe réinitialisé.": "تبدلات كلمة السر.",
+  "Vos données restent dans ce navigateur": "المعطيات ديالكم كتبقى فهاد المتصفح",
+  "Les sauvegardes contiennent aussi les comptes et les pièces déposées. Utilisez uniquement des données fictives.": "نسخ الحفظ فيها حتى الحسابات والوثائق. استعملو غير معطيات خيالية للتجربة.",
+  "Exporter": "خرّج نسخة",
+  "Importer une sauvegarde": "دخل نسخة محفوظة",
+  "Réinitialiser la démonstration": "بدا التجربة من جديد",
+  "Réinitialiser toutes les données": "رجّع كاع معطيات التجربة للبداية",
+  "Les activités, simulations, comptes et documents locaux seront remplacés par les données fictives initiales. Exportez une sauvegarde avant de continuer.": "الأنشطة والمحاكاة والحسابات والوثائق غادي يتبدلو بمعطيات التجربة الأولى. خرّجو نسخة محفوظة قبل ما تكملو.",
+  "Importer cette sauvegarde": "دخل هاد النسخة",
+  "Cette opération remplacera les données de démonstration et déconnectera la session. Exportez votre sauvegarde actuelle avant de poursuivre.": "هاد العملية غادي تبدل معطيات التجربة وتخرجكم من الحساب. خرّجو نسخة من المعطيات الحالية قبل ما تكملو.",
+  "Remplacer les données": "بدّل المعطيات",
+  "Exporter une sauvegarde": "خرّج نسخة محفوظة",
+  "Anciennes données conservées.": "المعطيات القديمة باقية محفوظة.",
+  "Données anciennes détectées : elles ont été conservées.": "لقينا معطيات قديمة وبقات محفوظة.",
+  "Leur format ne correspond pas à cette version. Un espace de démonstration séparé est utilisé ; aucune ancienne donnée n’a été effacée.": "الصيغة ديالها مختلفة على هاد النسخة. استعملنا فضاء تجربة مستقل بلا ما نمسحو حتى معطى قديم.",
+  "Fermer": "سدّ النافذة",
+  "Bienvenue": "مرحبا",
+  "Aucune exploitation accessible.": "ما كاينة حتى ضيعة متاحة لهاد الحساب.",
+  "Aucune exploitation affectée à ce compte.": "ما تعينات حتى ضيعة لهاد الحساب.",
+  "Aucun dossier accessible.": "ما كاين حتى ملف متاح لهاد الحساب.",
+  "Ancien conseiller": "مستشار سابق",
+  "Ajouter une activité annuelle": "زيد نشاط سنوي",
+  "Culture ou élevage": "الزراعة أو تربية الماشية",
+  "Densité": "كثافة الغرس",
+  "Âge de la plantation (ans)": "عمر الغرس بالسنين",
+  "Fourrages et alimentation": "الأعلاف والتغذية",
+  "Dépenses déclarées (MAD)": "المصاريف المصرّح بها بالدرهم",
+  "Observations": "الملاحظات",
+  "Conserver dans l’historique": "حفظ فتاريخ الضيعة",
+  "Activité historisée.": "تسجّل النشاط فتاريخ الضيعة.",
+  "Le PDF est prêt : téléchargement lancé.": "ملف PDF واجد وبدا التحميل.",
+  "La création du PDF a échoué. Réessayez dans Chrome ou Edge.": "ما قدرناش نوجدو PDF. عاودو جربو فـ Chrome ولا Edge.",
+  "Simulation inaccessible.": "ما عندكمش الولوج لهاد المحاكاة.",
+  "Action non autorisée pour ce profil.": "هاد الإجراء ما مسموحش لهاد الحساب.",
+  "Connexion impossible. Pour la démonstration, cliquez sur un compte ci-dessous afin de remplir ses identifiants actuels, puis sur Se connecter.": "ما تمش الدخول. باش تجربو، اختارو واحد من حسابات التجربة اللي لتحت.",
+  "Ce compte de démonstration est indisponible.": "هاد الحساب ديال التجربة ما متوفرش.",
+  "Le mot de passe actuel est incorrect.": "كلمة السر الحالية ماشي صحيحة.",
+  "La superficie doit être positive.": "خاص المساحة تكون أكبر من الصفر.",
+  "Vérifiez les valeurs numériques et l’année.": "راجعو الأرقام والعام اللي دخلتو.",
+  "Choisissez un PDF, une image ou un texte de 1 Mo maximum.": "اختارو PDF أو صورة أو نص ما يفوتش 1 ميغا.",
+  "Lecture du fichier impossible.": "ما قدرناش نقراو الملف.",
+  "Cette adresse est déjà utilisée.": "هاد البريد الإلكتروني مستعمل من قبل.",
+  "Le dernier administrateur actif doit être conservé.": "خاص يبقى على الأقل مسؤول واحد نشيط فالمنصة.",
+  "Démonstration réinitialisée.": "ترجعات معطيات التجربة للبداية.",
+  "Sauvegarde importée. Reconnectez-vous.": "تدخلات النسخة المحفوظة. عاودو دخلو للحساب.",
+  "Import impossible : données précédentes conservées.": "ما قدرناش ندخلو النسخة. المعطيات السابقة بقات محفوظة.",
+  "Sauvegarde invalide ou incompatible. Aucune donnée remplacée.": "هاد النسخة ماشي صحيحة أو ما متوافقةش. ما تبدل حتى معطى.",
+  "Lecture de la sauvegarde impossible.": "ما قدرناش نقراو النسخة المحفوظة.",
+  "Stockage navigateur indisponible — vos données ne seront pas conservées. Recommandé : Chrome/Edge, hors navigation privée.": "الحفظ فالمتصفح ما متاحش — المعطيات ما غاديش تبقى من بعد. الأحسن تستعملو Chrome ولا Edge بلا التصفح الخفي.",
+  "Données illisibles : exportez une sauvegarde avant de réinitialiser.": "المعطيات ما تقراتش. خرّجو نسخة محفوظة قبل ما تبدّاو من جديد.",
+  "Enregistrement impossible : espace navigateur insuffisant. Exportez vos données.": "ما قدرناش نحفظو: البلاصة فالمتصفح ما كافياش. خرّجو نسخة من المعطيات.",
+  "Session temporaire : mémorisation indisponible.": "هاد الدخول مؤقت: التذكّر ما متاحش.",
+  "Page": "صفحة",
+  "Paramètres du projet": "معطيات المشروع",
+  "À retenir": "خاص تعرفو",
+  "Simulation du": "محاكاة نهار",
+  "Référence :": "المرجع:",
+  "Région non renseignée": "الجهة ما تعمّراتش",
+  "Projet agricole": "مشروع فلاحي",
+  "Projet": "المشروع",
+  "Ressources fourragères": "الموارد العلفية",
+  "Aliments du bétail": "علف الماشية",
+  "Précipitations (information)": "التساقطات، معلومة فقط",
+  "Concurrence (information)": "المنافسة، معلومة فقط",
+  "Les précipitations et la concurrence sont informatives : aucun effet sur les prix n’est calculé. Cette simulation ne constitue ni une demande de crédit, ni un accord de financement, ni une autorisation de démarrer les travaux.": "التساقطات والمنافسة غير معلومات وما كيحسبوش تأثيرها على الأثمنة. هاد المحاكاة ماشي طلب قرض، وماشي موافقة على التمويل، وماشي ترخيص باش تبداو الأشغال.",
+  "Crédit Agricole du Maroc — Programme Intrapreneuriat": "القرض الفلاحي للمغرب — برنامج المقاولة الداخلية",
+  "Coût total indicatif": "تقدير التكلفة الإجمالية",
+  "Référence basique": "مرجع المستوى البسيط",
+  "Référence intermédiaire": "مرجع المستوى المتوسط",
+  "Référence intensive": "مرجع المستوى المكثف",
+  "par hectare, multipliée par": "للهكتار، مضروبة فـ",
+  "Investissement et charges annuelles ne sont pas additionnés.": "الاستثمار والمصاريف السنوية ما كنجمعوهومش.",
+  "par tête, multiplié par": "للرأس، مضروب فـ",
+  "Le bâtiment et les ressources fourragères ne font pas l’objet d’un calcul supplémentaire.": "البناية والأعلاف ما تزادوش فهاد الحساب.",
+  "Fourrages de l’exploitation ; complément acheté": "علف من الضيعة مع تكملة مشتراة",
+  "Taille et entretien suivis ; visite à programmer.": "التقليم والصيانة متتبعين؛ خاص نبرمجو زيارة.",
+  "Campagne clôturée, observations conservées.": "الموسم سالا والملاحظات بقات محفوظة.",
+  "Disponibilité en eau à examiner avec le conseiller.": "توفّر الماء خاص يتدرس مع المستشار.",
+  "À préciser avec le conseiller": "خاص نوضحوها مع المستشار",
+  "À préciser": "خاص التوضيح",
+  "Sans objet": "ما كيهمش هاد الحالة",
+  "En savoir plus": "عرف أكثر",
+  "pièces": "وثائق",
+  "activités": "أنشطة",
+  "exploitations accompagnées": "ضيعات كتستافد من المواكبة",
+  "années d’expérience": "سنين ديال التجربة",
+  "hectares": "هكتار",
+  "animaux": "رؤوس الماشية",
+  "arbres/ha": "شجرة/هكتار",
+  "plants/ha": "شتلة/هكتار",
+  "ans": "سنين",
+  "ha": "هكتار",
+  "MAD": "درهم",
+  "à": "حتى",
+  "Fonds de Développement Agricole · Guide 2026": "صندوق التنمية الفلاحية · دليل 2026",
+  "Aides et subventions FDA": "دعم وإعانات صندوق التنمية الفلاحية",
+  "Parcourez les dispositifs ou préparez une estimation à partir de zéro, sans projet enregistré.": "شوفو برامج الدعم أو وجدو تقدير من البداية بلا مشروع مسجل.",
+  "Simuler une aide à partir de zéro": "قدّر الدعم من البداية",
+  "Tous les domaines": "كاع المجالات",
+  "Voir les critères et les choix": "شوف الشروط والاختيارات",
+  "Renseigner mes critères": "نعمّر المعطيات والشروط ديالي",
+  "L’estimation teste des critères déclarés. Elle ne confirme ni l’éligibilité, ni une approbation, ni le versement. Le guichet unique DPA / ORMVA vérifie le dossier. Les cumuls ne sont pas calculés.": "هاد التقدير كيراجع المعطيات اللي صرّحتو بها. ما كيأكد لا الاستحقاق لا الموافقة لا صرف الدعم. الشباك الوحيد فـ DPA أو ORMVA هو اللي كيراجع الملف. جمع الإعانات ما كنحسبوهش.",
+  "Terres collectives et jeunes": "الأراضي الجماعية والشباب",
+  "Irrigation": "السقي",
+  "Pompage solaire": "ضخ الماء بالطاقة الشمسية",
+  "Amélioration génétique": "التحسين الوراثي",
+  "Semences, plantations et bio": "البذور والغرس والإنتاج البيولوجي",
+  "Matériel, bâtiments et protection": "المعدات والبنايات والحماية",
+  "Unités de valorisation": "وحدات تثمين المنتوجات",
+  "Exportations": "التصدير",
+  "Agrégation agricole": "التجميع الفلاحي",
+  "Aide à l’investissement plafonnée à 20 ha : selon le régime, l’âge, les cultures et le niveau d’investissement. Les niveaux ne se cumulent pas. Aide à la location : 70 % du loyer, plafonds 2 500 MAD/ha/an, 50 000 MAD/projet/an et 150 000 MAD/projet ; durée et conditions spécifiques. Aides additionnelles calculées sur une subvention déjà perçue, pas sur le coût du projet.": "دعم الاستثمار محدد فـ 20 هكتار، حسب النظام والعمر والزراعة ومستوى الاستثمار. المستويات ما كتجمعش. دعم الكراء هو 70 % من الكراء، بسقوف 2 500 درهم للهكتار فالعام، و50 000 درهم للمشروع فالعام، و150 000 درهم للمشروع، وبشروط ومدد خاصة. الدعم الإضافي كيتحسب على إعانة توصل بها المستفيد، ماشي على تكلفة المشروع.",
+  "Le seul statut Joumouâ ou Archia ne suffit pas. Conditions personnelles, contrat, dates, mainlevée et cumuls à instruire. Dispositions annoncées jusqu’au 31/12/2030. Information uniquement.": "كون الأرض جماعية أو عرشية بوحدو ما كافيش. خاص دراسة الوضعية الشخصية والعقد والتواريخ ورفع اليد وجمع الإعانات. المقتضيات مذكورة حتى 31/12/2030. هادشي غير للمعلومة.",
+  "Irrigation localisée ou de complément, individuelle ou collective. Les taux et plafonds varient selon le régime, la taille totale de l’exploitation, les composantes et les quantités équipées.": "السقي الموضعي أو التكميلي، الفردي أو الجماعي. النسب والسقوف كتبدل حسب النظام والمساحة الإجمالية للضيعة والمكونات والكميات المجهزة.",
+  "L’estimateur couvre uniquement l’irrigation localisée individuelle, hors agrégation. Approbation avant réalisation ; droits sur l’eau et lien foncier à justifier. Terme annoncé au 31/12/2027 ou à l’atteinte de 350 000 ha approuvés, quota non vérifiable ici.": "هاد التقدير غير للسقي الموضعي الفردي، خارج التجميع. خاص الموافقة قبل الإنجاز وإثبات الحق فالماء والعلاقة بالأرض. الأجل المذكور هو 31/12/2027 أو ملي توصل المساحة الموافق عليها لـ 350 000 هكتار. ما نقدرش نتحققو هنا من الحصة المستهلكة.",
+  "30 % du coût du kit et de son installation, avec plafonds simultanés de 3 000 MAD/ha irrigué, 3 000 MAD/kWc et 30 000 MAD/projet.": "30 % من تكلفة التجهيز والتركيب، مع تطبيق السقوف كلها: 3 000 درهم للهكتار المسقي، و3 000 درهم لكل كيلوواط ذروة، و30 000 درهم للمشروع.",
+  "Projet pilote : irrigation localisée fonctionnelle, pompage au butane, compteur et registre d’eau. Un seul projet aidé par exploitation ; disponibilité régionale à vérifier.": "برنامج تجريبي كيتطلب سقي موضعي خدام، وضخ الماء بالبوطا، وعداد وسجل استهلاك الماء. غير مشروع واحد مدعوم لكل ضيعة، والتوفر فالجهة خاصو التأكيد.",
+  "Acquisition de génisses laitières importées : 6 000 MAD/tête ; sélectionnées et produites au Maroc : 3 000 MAD/tête. D’autres dispositifs concernent les reproducteurs camelins et la production de reproducteurs sélectionnés.": "شراء عجلات حلوب مستوردة: 6 000 درهم للرأس؛ والعجلات المنتقاة والمنتجة فالمغرب: 3 000 درهم للرأس. كاين حتى دعم لفحول الإبل وإنتاج حيوانات التكاثر المنتقاة.",
+  "Les aides ne concernent pas tout animal acheté. Races, identification, pedigree ou gestation et justificatifs dépendent du dispositif. Pour les génisses : échéance au 31/12/2026 ou atteinte des quotas nationaux, non vérifiables ici.": "الدعم ما كيشملش أي حيوان تشرا. السلالة والترقيم والنسب أو الحمل والوثائق كيتبدلو حسب البرنامج. بالنسبة للعجلات، الأجل 31/12/2026 أو بلوغ الحصص الوطنية اللي ما نقدرش نتحققو منها هنا.",
+  "Aides à la création de vergers : densités minimales, mode d’irrigation, coût des plants et plafonds par hectare. Le guide traite aussi des semences, des analyses de laboratoire et de la certification biologique.": "دعم إنشاء البساتين كيتعلق بالحد الأدنى لكثافة الغرس وطريقة السقي وثمن الشتلات والسقف للهكتار. الدليل فيه حتى البذور وتحاليل المختبر وشهادة الإنتاج البيولوجي.",
+  "Semences : incohérences de campagne et mention de publication en attente p. 33 ; l’aide est répercutée par les semenciers, pas versée une seconde fois à l’agriculteur. Analyses : plafond non chiffré. Bio : tranche exactement 20 ha non explicitée p. 43. Ces trois volets restent informatifs.": "البذور: كاين اختلاف فالمواسم وذكر انتظار النشر فالصفحة 33؛ الدعم كينقص من ثمن البيع عند شركات البذور وما كيتصرفش مرة ثانية للفلاح. التحاليل: السقف ما محددش بالأرقام. البيولوجي: حالة 20 هكتار بالضبط ما واضحةش فالصفحة 43. هاد الجوانب كتبقى غير للمعلومة.",
+  "Matériel agricole et d’élevage, bâtiments, serres et filets. Selon l’objet : taux du coût, plafonds par unité, hectare ou m² et limites d’unités selon la taille de l’exploitation.": "معدات الزراعة وتربية الماشية والبنايات والبيوت المغطاة والشباك. حسب المكون، كاين نسبة من التكلفة وسقف للوحدة أو للهكتار أو للمتر المربع، وعدد وحدات حسب حجم الضيعة.",
+  "Estimateur limité aux objets explicitement proposés, au régime universel / première tranche. Les tranches d’agrégation et aides additionnelles ne sont pas ajoutées. Approbations ou accords avant investissement et normes techniques à vérifier.": "التقدير محدود فالمكونات المعروضة والنظام العام أو الشطر الأول. أشطر التجميع والدعم الإضافي ما كنزيدوهومش. خاص مراجعة الموافقات قبل الاستثمار والمعايير التقنية.",
+  "Conditionnement, stockage, transformation et valorisation des produits végétaux ou animaux ; centres de collecte du lait. Barèmes et plafonds selon le type et parfois la capacité de l’unité.": "تلفيف وتخزين وتحويل وتثمين المنتوجات النباتية أو الحيوانية، ومراكز جمع الحليب. الجداول والسقوف حسب النوع وأحيانا طاقة الوحدة.",
+  "Information uniquement : capacité, objet exact, autorisations et coûts éligibles doivent être instruits. Certaines valeurs du guide sont typographiquement ambiguës ; aucun montant global automatique.": "غير للمعلومة: خاص دراسة الطاقة والنشاط بالضبط والتراخيص والتكاليف المقبولة. بعض الأرقام فالدليل ما واضحةش فالطباعة، وما كنحسبوش مبلغ إجمالي أوتوماتيكي.",
+  "Aides selon le produit, la destination, la campagne et le mode de transport. Certains dispositifs concernent les agrumes, produits animaux ou le transport aérien.": "الدعم حسب المنتوج والوجهة والموسم وطريقة النقل. بعض البرامج كتشمل الحوامض والمنتوجات الحيوانية أو النقل الجوي.",
+  "Information uniquement. Une culture ne suffit pas à ouvrir une aide export : justificatifs douaniers, quantités, destinations et quotas restent à vérifier.": "غير للمعلومة. نوع الزراعة بوحدو ما كيعطيش الحق فدعم التصدير: خاص مراجعة الوثائق الجمركية والكميات والوجهات والحصص.",
+  "Subventions en tranches et forfaits selon filière, catégorie de superficie ou de cheptel. La deuxième tranche dépend notamment des livraisons et des justificatifs d’agrégation.": "دعم على أشطر ومبالغ جزافية حسب السلسلة وصنف المساحة أو القطيع. الشطر الثاني كيتعلق خصوصا بالتسليمات ووثائق التجميع.",
+  "Information uniquement. Ne pas additionner automatiquement taux universel, deuxième tranche et aide additionnelle. Attestation, première tranche déjà reçue et conditions de livraison à contrôler.": "غير للمعلومة. ما نجمعوش أوتوماتيكيا النظام العام والشطر الثاني والدعم الإضافي. خاص التحقق من الشهادة والشطر الأول اللي تصرف وشروط التسليم.",
+  "Ce domaine reste informatif : aucun calcul automatique pour ces règles complexes ou incomplètes. Votre conseiller peut étudier les conditions avec vous.": "هاد المجال كيبقى للمعلومة: ما كاينش حساب أوتوماتيكي لهاد القواعد المعقدة أو الناقصة. المستشار يقدر يدرس الشروط معاكم.",
+  "Création de verger —": "إنشاء بستان —",
+  "Pêcher / nectarinier": "شجر الخوخ / النكتارين",
+  "Cerisier": "شجر حب الملوك",
+  "Arganier": "شجر أركان",
+  "Figuier": "شجر الكرموس",
+  "Noyer": "شجر الكركاع",
+  "Caroubier": "شجر الخروب",
+  "Pistachier": "شجر الفستق",
+  "Extension de palmeraie — Palmier dattier": "توسيع واحة النخيل — نخيل التمر",
+  "Irrigation localisée individuelle": "السقي الموضعي الفردي",
+  "Kit de pompage solaire": "تجهيز ضخ الماء بالطاقة الشمسية",
+  "Génisses laitières importées": "عجلات حلوب مستوردة",
+  "Génisses sélectionnées produites au Maroc": "عجلات منتقاة ومنتجة فالمغرب",
+  "Construction de bâtiment d’élevage": "بناء محل لتربية الماشية",
+  "Broyeur pour aliments du bétail": "مطحنة علف الماشية",
+  "Acquisition de ruches peuplées": "شراء خلايا نحل عامرة",
+  "Serre — composante à équiper": "بيت مغطى — المكون اللي غادي يتجهز",
+  "Filets anti-insectes sous serre": "شباك ضد الحشرات داخل البيوت المغطاة",
+  "Filets anti-grêle des plantations fruitières": "شباك حماية الأشجار المثمرة من التبروري",
+  "% du coût des plants, plafonné par hectare ; densité minimale selon espèce et conduite.": "% من ثمن الشتلات، بسقف للهكتار وكثافة دنيا حسب النوع وطريقة التدبير.",
+  "Forfait de 3 500 ou 5 000 MAD/ha selon périmètre, goutte à goutte et densité. Hors replantation après feu bactérien.": "مبلغ جزافي ديال 3 500 أو 5 000 درهم للهكتار حسب السقي والتنقيط والكثافة. ما كيشملش إعادة الغرس من بعد مرض اللفحة النارية.",
+  "70 % du coût des plants, plafond 35 000 MAD/ha, densité minimale 100 plants/ha. Réhabilitation en nature exclue de ce calcul.": "70 % من ثمن الشتلات، بسقف 35 000 درهم للهكتار وكثافة دنيا 100 شتلة للهكتار. التأهيل بدعم عيني خارج هاد الحساب.",
+  "Calcul par composante et double plafond réseau / bassin. Taux selon la superficie totale exploitée, pas seulement celle du projet.": "الحساب لكل مكون مع سقف مستقل للشبكة وللحوض. النسبة حسب المساحة الإجمالية المستغلة، ماشي غير مساحة المشروع.",
+  "Minimum de 30 % du coût, 3 000 MAD/ha, 3 000 MAD/kWc et 30 000 MAD/projet.": "الأقل بين 30 % من التكلفة، و3 000 درهم للهكتار، و3 000 درهم لكل كيلوواط ذروة، و30 000 درهم للمشروع.",
+  "6 000 MAD par génisse de race laitière importée concernée, sous conditions et quota.": "6 000 درهم لكل عجلة حلوب مستوردة معنية، حسب الشروط والحصة المتوفرة.",
+  "3 000 MAD par génisse laitière de race pure sélectionnée produite au Maroc, sous conditions et quota.": "3 000 درهم لكل عجلة حلوب من سلالة نقية منتقاة ومنتجة فالمغرب، حسب الشروط والحصة.",
+  "25 % du coût de construction, plafond de 50 à 200 MAD/m² selon le bâtiment. Surfaces et plans conformes à justifier.": "25 % من تكلفة البناء، بسقف من 50 حتى 200 درهم للمتر المربع حسب البناية. خاص إثبات مطابقة المساحة والتصاميم.",
+  "30 % du coût, plafond 6 000 MAD/unité, 1 ou 2 unités selon le cheptel exploité.": "30 % من التكلفة، بسقف 6 000 درهم للوحدة، ووحدة أو جوج حسب القطيع المستغل.",
+  "30 % du coût d’acquisition, plafond 300 MAD par ruche peuplée.": "30 % من ثمن الشراء، بسقف 300 درهم لكل خلية نحل عامرة.",
+  "25 % du coût, plafond de 3 à 27 MAD/m² couvert selon la composante. Un calcul par composante.": "25 % من التكلفة، بسقف من 3 حتى 27 درهم للمتر المربع المغطى حسب المكون. كل مكون كيتحسب بوحدو.",
+  "35 % du coût, plafond 12 000 MAD/ha, pour les cultures maraîchères sous serre.": "35 % من التكلفة، بسقف 12 000 درهم للهكتار، لزراعة الخضرة داخل البيوت المغطاة.",
+  "40 % du coût, plafond 50 000 MAD/ha, uniquement dans les provinces ou préfectures citées.": "40 % من التكلفة، بسقف 50 000 درهم للهكتار، غير فالأقاليم والعمالات المذكورة.",
+  "Guide FDA — édition 2026, p.": "دليل صندوق التنمية الفلاحية — نسخة 2026، الصفحة",
+  "Guide FDA 2026, p.": "دليل صندوق التنمية الفلاحية 2026، الصفحة",
+  "Scénarios FDA associés — non accordés": "سيناريوهات الدعم المرتبطة — ماشي موافقات",
+  "Hypothèses et conditions conservées": "المعطيات والشروط اللي تحافظات",
+  "Montants non additionnés : cumuls, assiettes et décisions à vérifier. Aucun montant n’est déduit automatiquement du coût du projet.": "المبالغ ما كتجمعش: خاص التحقق من الجمع بين الإعانات وأساس الحساب والقرارات. حتى مبلغ ما كيتنقص أوتوماتيكيا من تكلفة المشروع.",
+  "Aides FDA liées à ce scénario": "دعم صندوق التنمية الفلاحية المرتبط بهاد السيناريو",
+  "Présélection selon l’activité et le scénario calculé ; critères restant à confirmer.": "اختيار أولي حسب النشاط والسيناريو المحسوب؛ الشروط الباقية خاصها التأكيد.",
+  "Examiner les critères FDA": "شوف شروط الدعم",
+  "Explorer toutes les aides FDA": "شوف كاع برامج الدعم",
+  "Aucun barème automatisé associé à ce scénario. Les aides à la création de vergers ne portent pas sur les charges annuelles.": "ما كاين حتى جدول حساب أوتوماتيكي مرتبط بهاد السيناريو. دعم إنشاء البساتين ما كيتحسبش على المصاريف السنوية.",
+  "Aucun barème automatisé associé à ce scénario. Vous pouvez explorer les autres dispositifs depuis le menu Subventions, sans les associer automatiquement à ce projet.": "ما كاين حتى جدول حساب أوتوماتيكي لهاد السيناريو. تقدروا تشوفو باقي البرامج فخانة الدعم، بلا ربط أوتوماتيكي بهاد المشروع.",
+  "Estimer une aide FDA": "تقدير دعم صندوق التنمية الفلاحية",
+  "Dispositif à examiner": "برنامج الدعم اللي بغيتو تدرسوه",
+  "Exploration indépendante : aucune aide ne sera ajoutée à un projet.": "دراسة مستقلة: حتى دعم ما غادي يتزاد لمشروع.",
+  "Scénario lié à la simulation sélectionnée. Les coûts éligibles doivent être renseignés séparément du budget global.": "هاد السيناريو مرتبط بالمحاكاة المختارة. خاص تعمّرو التكاليف المقبولة للدعم بوحدها، منفصلة على الميزانية الإجمالية.",
+  "Vérifier les critères et estimer": "راجع الشروط وحسب التقدير",
+  "Aucun montant estimé pour cette configuration.": "ما حسبنا حتى مبلغ بهاد المعطيات.",
+  "Conditions et pièces à vérifier": "الشروط والوثائق اللي خاص تراجعوها",
+  "Conserver ce scénario FDA dans la simulation": "حفظ هاد السيناريو ديال الدعم فالمحاكاة",
+  "Estimation indépendante, non enregistrée dans une simulation de projet.": "تقدير مستقل، ما تحفظش فمحاكاة مشروع.",
+  "Laisser vide une donnée inconnue : aucun montant ne sera inventé. Un coût égal à 0 donne une estimation nulle si les autres critères sont renseignés. Les approbations et pièces restent à vérifier avant tout engagement.": "خليو الخانة خاوية إلا المعلومة ما معروفةش: ما غادي نزيدو حتى مبلغ من عندنا. تكلفة بصفر كتعطي دعم مقدّر بصفر إلا باقي الشروط معمّرة. الموافقات والوثائق خاصها المراجعة قبل أي التزام.",
+  "À compléter": "خاص التكميل",
+  "Configuration non chiffrée": "هاد المعطيات ما تعطاتش ليها قيمة دعم",
+  "Estimation sous conditions": "تقدير مرتبط بالشروط",
+  "Estimation conditionnelle": "تقدير مشروط",
+  "Scénarios FDA — aides non accordées": "سيناريوهات الدعم — ماشي موافقات على الإعانة",
+  "Aides non additionnées et non déduites automatiquement du coût. Vérifier les cumuls et les assiettes au guichet unique.": "الإعانات ما كتجمعش وما كتنقصش أوتوماتيكيا من التكلفة. راجعو الجمع وأساس الحساب فالشباك الوحيد.",
+  "Oui, selon les éléments déclarés": "نعم، حسب المعطيات المصرّح بها",
+  "Oui, déclaré": "نعم، مصرّح به",
+  "Non": "لا",
+  "Superficie concernée": "المساحة المعنية",
+  "Superficie nette à équiper": "المساحة الصافية اللي غادي تتجهز",
+  "Densité réelle de la plantation": "كثافة الغرس الفعلية",
+  "S’agit-il d’une extension de palmeraie ?": "واش المشروع توسيع واحة النخيل؟",
+  "S’agit-il d’une création de verger, hors replantation après feu bactérien ?": "واش المشروع إنشاء بستان جديد، خارج إعادة الغرس من بعد اللفحة النارية؟",
+  "Plants et factures conformes aux exigences du guide ?": "واش الشتلات والفواتير مطابقين لشروط الدليل؟",
+  "Conduite hydrique": "طريقة السقي",
+  "Irrigation au goutte à goutte ?": "واش السقي بالتنقيط؟",
+  "Superficie totale exploitée, toutes parcelles": "المساحة الإجمالية المستغلة، كاع القطع",
+  "Superficie totale exploitée (ha)": "المساحة الإجمالية المستغلة بالهكتار",
+  "Régime du projet": "نظام المشروع",
+  "Individuel": "فردي",
+  "Collectif": "جماعي",
+  "Agrégation": "تجميع فلاحي",
+  "Statut de petit agriculteur confirmé si exploitation de 5 ha ou moins ?": "واش صفة فلاح صغير مؤكدة إلا كانت الضيعة 5 هكتارات أو أقل؟",
+  "Saisissez 0 pour une composante non prévue. Les coûts sont les montants éligibles détaillés, pas le budget global du projet.": "دخلو 0 للمكون اللي ما مبرمجش. التكاليف هي المبالغ المفصلة المقبولة للدعم، ماشي الميزانية الإجمالية للمشروع.",
+  "Coût des puits / forages": "تكلفة الآبار والثقوب المائية",
+  "Profondeur concernée": "العمق المعني",
+  "Coût du dispositif de pompage": "تكلفة جهاز ضخ الماء",
+  "Puissance installée": "القوة المركبة",
+  "Coût de la station de tête": "تكلفة محطة الرأس",
+  "Coût des conduites": "تكلفة القنوات",
+  "Coût des goutteurs": "تكلفة قطارات السقي",
+  "Coût de l’automatisme": "تكلفة التحكم الأوتوماتيكي",
+  "Coût du bassin": "تكلفة الحوض",
+  "Volume du bassin": "حجم الحوض",
+  "m linéaires": "متر طولي",
+  "Type de goutteurs": "نوع قطارات السقي",
+  "Auto-régulants": "ذاتية التنظيم",
+  "Turbulents": "ذات جريان مضطرب",
+  "Gaine": "شريط السقي",
+  "Non prévu": "ما مبرمجش",
+  "Lien foncier": "العلاقة القانونية بالأرض",
+  "Autre lien justifié": "علاقة أخرى مبررة بالوثائق",
+  "Si location : années restantes du bail": "إلا كانت الأرض بالكراء: سنين العقد اللي باقية",
+  "Droits et ressources en eau justifiables ?": "واش الحقوق والموارد المائية يمكن إثباتها؟",
+  "Puissance photovoltaïque installée": "القوة الشمسية المركبة",
+  "Irrigation localisée existante et fonctionnelle ?": "واش السقي الموضعي موجود وخدام؟",
+  "Le pompage actuel fonctionne-t-il au butane ?": "واش ضخ الماء دابا كيخدم بالبوطا؟",
+  "Compteur fonctionnel et registre de consommation prévus ?": "واش عداد خدام وسجل الاستهلاك مبرمجين؟",
+  "Un seul projet aidé dans cette exploitation ?": "واش غير مشروع واحد هو المدعوم فهاد الضيعة؟",
+  "Si location : durée totale du bail": "إلا كانت الأرض بالكراء: المدة الإجمالية للعقد",
+  "Si location : durée restante du bail": "إلا كانت الأرض بالكراء: المدة اللي باقية فالعقد",
+  "Nombre de génisses concernées": "عدد العجلات المعنية",
+  "têtes": "رؤوس",
+  "Race laitière importée admise et pedigree / CIAB conformes ?": "واش العجلات من سلالة حلوب مستوردة مقبولة، ووثائق النسب وCIAB مطابقة؟",
+  "Génisses laitières de race pure sélectionnées, produites au Maroc, avec contrat de multiplication, CIAB et gestation positive justifiés ?": "واش العجلات الحلوب من سلالة نقية منتقاة ومنتجة فالمغرب، ومعاها عقد الإكثار وCIAB وشهادة الحمل المؤكد؟",
+  "Surface de bâtiment retenue selon les plans": "مساحة البناية المعتمدة فالتصاميم",
+  "Type de bâtiment": "نوع البناية",
+  "Étable moderne couverte, stabulation entravée": "إسطبل عصري مغطى، الحيوانات مربوطة",
+  "Étable moderne, stabulation libre": "إسطبل عصري، الحيوانات حرة الحركة",
+  "Étable à stabulation libre": "إسطبل الحيوانات فيه حرة الحركة",
+  "Étable traditionnelle": "إسطبل تقليدي",
+  "Bergerie / chèvrerie moderne": "حظيرة عصرية للغنم أو الماعز",
+  "Bergerie / chèvrerie traditionnelle": "حظيرة تقليدية للغنم أو الماعز",
+  "Abri pour camelins": "مأوى للإبل",
+  "Usage et plans conformes aux caractéristiques approuvées ?": "واش الاستعمال والتصاميم مطابقين للمواصفات المصادق عليها؟",
+  "Type de cheptel exploité": "نوع القطيع المستغل",
+  "Bovins / camelins": "أبقار / إبل",
+  "Ovins / caprins": "غنم / ماعز",
+  "Effectif total exploité (pas seulement le lot du projet)": "عدد رؤوس القطيع كامل، ماشي غير المجموعة ديال المشروع",
+  "Nombre de broyeurs à acquérir": "عدد مطاحن العلف اللي غادي تشراو",
+  "unités": "وحدات",
+  "Nombre de ruches peuplées à acquérir": "عدد خلايا النحل العامرة اللي غادي تشراو",
+  "ruches": "خلايا النحل",
+  "Surface couverte par cette composante": "المساحة المغطاة بهاد المكون",
+  "Composante": "المكون",
+  "Armature métallique": "الهيكل الحديدي",
+  "Armature en bois": "الهيكل الخشبي",
+  "Armature des tunnels métalliques": "هيكل الأنفاق الحديدية",
+  "Plastique et fil d’attache": "البلاستيك وخيط التثبيت",
+  "Culture maraîchère sous serre ?": "واش زراعة الخضرة داخل بيت مغطى؟",
+  "Protection d’une plantation fruitière ?": "واش الحماية لغرس الأشجار المثمرة؟",
+  "Province / préfecture (pas la région)": "الإقليم أو العمالة، ماشي الجهة",
+  "Autre province / préfecture": "إقليم أو عمالة أخرى",
+  "Prix total d’acquisition des plants uniquement": "الثمن الإجمالي لشراء الشتلات بوحدها",
+  "Coût éligible d’acquisition et installation du kit solaire": "تكلفة شراء وتركيب التجهيز الشمسي المقبولة للدعم",
+  "Coût éligible de la composante choisie": "التكلفة المقبولة للدعم ديال المكون المختار",
+  "Régime de calcul": "نظام الحساب",
+  "Régime universel / première tranche": "النظام العام / الشطر الأول",
+  "Autre tranche ou agrégation à instruire": "شطر آخر أو تجميع خاصو الدراسة",
+  "Date prévisionnelle de référence": "التاريخ المتوقع المعتمد",
+  "Lien juridique avec l’exploitation et identité du demandeur justifiables ?": "واش يمكن إثبات العلاقة القانونية بالضيعة وهوية صاحب الطلب؟",
+  "Scénario FDA associé. Enregistrez la simulation pour le conserver.": "تربط سيناريو الدعم بالمحاكاة. حفظو المحاكاة باش يبقى مسجل.",
+  "Scénario FDA enregistré ; les demandes déjà envoyées restent inchangées.": "تحفظ سيناريو الدعم، والطلبات اللي تصيفطات من قبل كتبقى بلا تغيير.",
+  "Ce dispositif ne correspond pas au scénario calculé.": "هاد البرنامج ما كيتوافقش مع السيناريو المحسوب.",
+  "Décision, pièces, disponibilités budgétaires et éventuels cumuls à confirmer au guichet unique.": "القرار والوثائق والميزانية المتوفرة وإمكانية الجمع بين الإعانات خاصها التأكيد فالشباك الوحيد.",
+  "Approbation préalable avant plantation ; factures conformes, RIB et engagement de conservation de 5 ans. Les cas de replantation après feu bactérien ne sont pas cumulés ici.": "خاص الموافقة قبل الغرس وفواتير مطابقة وRIB والتزام بالحفاظ على الاستثمار 5 سنين. إعادة الغرس من بعد اللفحة النارية ما كتجمعش مع هاد الحساب.",
+  "Approbation préalable avant réalisation ; autorisations et étude technique requises. Quota national de 350 000 ha approuvés non vérifié. Irrigation de complément et projets collectifs exclus du calcul.": "خاص الموافقة قبل الإنجاز والتراخيص والدراسة التقنية. الحصة الوطنية ديال 350 000 هكتار الموافق عليها ما تحققناش منها. السقي التكميلي والمشاريع الجماعية خارج هاد الحساب.",
+  "Projet pilote de 51 000 ha répartis par région : disponibilité régionale non vérifiée. Approbation préalable, société qualifiée, note de dimensionnement, justificatifs butane et engagement de maintien 5 ans.": "برنامج تجريبي ديال 51 000 هكتار موزعة على الجهات؛ التوفر فالجهة ما تحققناش منه. خاص الموافقة القبلية وشركة مؤهلة ومذكرة القياسات ووثائق البوطا والتزام بالحفاظ على الاستثمار 5 سنين.",
+  "Quota consommé non vérifiable. Demande après acquisition avec identification, factures et RIB.": "الحصة المستهلكة ما نقدرش نتحققو منها. الطلب من بعد الشراء ومعاه وثائق التعريف والفواتير وRIB.",
+  "Quota 60 000 têtes ; races laitières admises : Frisonne Holstein / Holstein, pie-rouge, Brune, Jersey, Tarentaise, Normande.": "الحصة 60 000 رأس؛ السلالات الحلوب المقبولة: فريزون هولشتاين / هولشتاين، الحمراء المبرقعة، برون، جيرزي، تارانتيز، نورماند.",
+  "Quota 120 000 têtes ; génisses sélectionnées produites au Maroc, justificatif de gestation positive et contrat de multiplication.": "الحصة 120 000 رأس؛ عجلات منتقاة منتجة فالمغرب، مع شهادة الحمل المؤكد وعقد الإكثار.",
+  "Approbation et contrat de construction DPA / ORMVA, normes et superficie retenue à vérifier ; factures et RIB.": "خاص مراجعة الموافقة وعقد البناء مع DPA أو ORMVA والمعايير والمساحة المعتمدة، ومعاهم الفواتير وRIB.",
+  "Accord ou approbation avant l’investissement selon la procédure ; factures détaillées, caractéristiques et RIB. Tranches supplémentaires non ajoutées.": "خاص الاتفاق أو الموافقة قبل الاستثمار حسب المسطرة، والفواتير المفصلة والمواصفات وRIB. الأشطر الإضافية ما تزادوش.",
+  "Calcul d’une seule composante. Ne pas multiplier un coût global par plusieurs barèmes.": "الحساب غير لمكون واحد. ما نضربوش تكلفة إجمالية فجداول دعم مختلفة.",
+  "Identité et lien juridique": "الهوية والعلاقة القانونية",
+  "Création / extension de plantation": "إنشاء أو توسيع الغرس",
+  "Conformité des plants et factures": "مطابقة الشتلات والفواتير",
+  "Statut de petit agriculteur": "صفة فلاح صغير",
+  "Droits et ressources en eau": "الحقوق والموارد المائية",
+  "Irrigation localisée fonctionnelle": "سقي موضعي خدام",
+  "Pompage actuel au butane": "ضخ الماء دابا بالبوطا",
+  "Compteur et registre d’eau": "العداد وسجل استهلاك الماء",
+  "Projet unique aidé par exploitation": "مشروع واحد مدعوم لكل ضيعة",
+  "Race / origine et justificatifs spécifiques": "السلالة والمصدر والوثائق الخاصة",
+  "Usage et plans approuvés": "الاستعمال والتصاميم المصادق عليها",
+  "Culture maraîchère sous serre": "زراعة الخضرة داخل بيت مغطى",
+  "Plantation fruitière": "غرس الأشجار المثمرة",
+  "Province non présente dans la liste du guide": "الإقليم ما كاينش فاللائحة ديال الدليل",
+  "Barème à examiner :": "جدول الدعم اللي خاصو الدراسة:",
+  "critère déclaré non satisfait": "حسب التصريح، هاد الشرط ما متوفرش",
+  "à renseigner": "خاصها تتعمّر",
+  "à confirmer": "خاصها التأكيد",
+  "à préciser": "خاصها التوضيح",
+  "valeur invalide": "القيمة ماشي صحيحة",
+  "Densité inférieure au minimum de": "كثافة الغرس أقل من الحد الأدنى ديال",
+  "Date de référence valide à renseigner": "خاص تدخل تاريخ معتمد وصحيح",
+  "Les dossiers antérieurs à 2026 ne sont pas chiffrés avec cette édition du guide.": "الملفات اللي قبل 2026 ما كنحسبوهاش بهاد النسخة من الدليل.",
+  "La surface équipée dépasse la superficie totale exploitée": "المساحة اللي غادي تتجهز فاتت المساحة الإجمالية المستغلة",
+  "Ce calcul couvre seulement le régime individuel, hors agrégation": "هاد الحساب غير للنظام الفردي، خارج التجميع",
+  "Une profondeur positive est requise pour le forage": "خاص العمق يكون أكبر من الصفر إلا كان الحفر مبرمج",
+  "Une puissance positive est requise pour le pompage": "خاص القوة تكون أكبر من الصفر إلا كان الضخ مبرمج",
+  "Un volume positif est requis pour le bassin": "خاص الحجم يكون أكبر من الصفر إلا كان الحوض مبرمج",
+  "Coût de goutteurs renseigné alors que le poste est non prévu": "دخلتو تكلفة القطارات ولكن المكون معلّم عليه ما مبرمجش",
+  "Date au-delà de l’échéance annoncée au 31/12/2027": "التاريخ فات الأجل المذكور 31/12/2027",
+  "Date au-delà de l’échéance annoncée au 31/12/2026": "التاريخ فات الأجل المذكور 31/12/2026",
+  "Barème non transcrit pour un olivier irrigué de densité ≥ 285 hors goutte à goutte": "ما دخلناش جدول دعم للزيتون المسقي بكثافة ≥ 285 بلا تنقيط",
+  "Goutte à goutte à confirmer pour le forfait à 5 000 MAD/ha": "خاص تأكيد التنقيط للمبلغ الجزافي 5 000 درهم للهكتار",
+  "Bail restant inférieur à 6 ans": "مدة الكراء الباقية أقل من 6 سنين",
+  "Durée totale du bail incohérente ou inférieure à 12 mois": "المدة الإجمالية للكراء ما منسجماش أو أقل من 12 شهر",
+  "Tranche d’agrégation non calculée par cet estimateur": "شطر التجميع ما كيتحسبش فهاد التقدير",
+  "Nombre de broyeurs supérieur au maximum de": "عدد المطاحن فات الحد الأقصى ديال",
+  "pour cet effectif": "لهاد العدد ديال القطيع",
+  "Années restantes du bail": "سنين الكراء اللي باقية",
+  "Durée totale du bail (ans)": "المدة الإجمالية ديال الكراء بالسنين",
+  "Date de référence": "التاريخ المعتمد",
+  "Critère déclaré": "شرط مصرّح به",
+  "Régime déclaré": "النظام المصرّح به",
+  "Coût éligible déclaré (MAD)": "التكلفة المقبولة للدعم المصرّح بها بالدرهم",
+  "Conformité usage et plans": "مطابقة الاستعمال والتصاميم",
+  "Province / préfecture": "الإقليم أو العمالة",
+  "Race, origine et justificatifs": "السلالة والمصدر والوثائق",
+  "Nombre d’unités / têtes": "عدد الوحدات أو الرؤوس",
+  "Effectif total exploité": "عدد رؤوس القطيع كامل",
+  "Coût des puits / forages (MAD)": "تكلفة الآبار والثقوب المائية بالدرهم",
+  "Coût du pompage (MAD)": "تكلفة ضخ الماء بالدرهم",
+  "Coût station de tête (MAD)": "تكلفة محطة الرأس بالدرهم",
+  "Coût conduites (MAD)": "تكلفة القنوات بالدرهم",
+  "Coût goutteurs (MAD)": "تكلفة القطارات بالدرهم",
+  "Coût automatisme (MAD)": "تكلفة التحكم الأوتوماتيكي بالدرهم",
+  "Coût bassin (MAD)": "تكلفة الحوض بالدرهم",
+  "Volume bassin (m³)": "حجم الحوض بالمتر المكعب",
+  "Un seul projet aidé par exploitation": "غير مشروع واحد مدعوم لكل ضيعة",
+  "Agrégation à instruire": "تجميع خاصو الدراسة",
+  "Province hors liste": "إقليم ما كاينش فاللائحة",
+  "Densité (plants/ha)": "كثافة الغرس، شتلة للهكتار",
+  "min": "الأقل بين",
+  "coût de construction": "تكلفة البناء",
+  "coût d’acquisition": "ثمن الشراء",
+  "prix des plants": "ثمن الشتلات",
+  "coût du kit installé": "تكلفة التجهيز مع التركيب",
+  "coût des filets": "تكلفة الشباك",
+  "coût des broyeurs": "تكلفة المطاحن",
+  "coût de cette composante": "تكلفة هاد المكون",
+  "Réseau :": "الشبكة:",
+  "plafond": "السقف",
+  "bassin :": "الحوض:",
+  "Taux :": "النسبة:",
+  "superficie totale exploitée :": "المساحة الإجمالية المستغلة:",
+  "par projet": "للمشروع",
+  "par unité": "للوحدة",
+  "par tête": "للرأس",
+  "Coût éligible": "التكلفة المقبولة للدعم",
+  "Nombre de génisses": "عدد العجلات",
+  "Nombre de broyeurs": "عدد المطاحن",
+  "Profondeur": "العمق",
+  "Coût puits / forage": "تكلفة البئر أو الثقب المائي",
+  "Coût pompage": "تكلفة الضخ",
+  "Coût station": "تكلفة المحطة",
+  "Coût conduites": "تكلفة القنوات",
+  "Coût goutteurs": "تكلفة القطارات",
+  "Coût automatisme": "تكلفة التحكم الأوتوماتيكي",
+  "Coût bassin": "تكلفة الحوض",
+  "Volume bassin": "حجم الحوض",
+  "Puissance photovoltaïque": "القوة الشمسية",
+  "Superficie totale exploitée": "المساحة الإجمالية المستغلة",
+  "Superficie": "المساحة",
+  "Ruches peuplées": "خلايا نحل عامرة",
+  "Type de cheptel": "نوع القطيع",
+  "Régime": "النظام",
+  "Superficie (": "المساحة (",
+  "Puissance (": "القوة (",
+  "Date": "التاريخ",
+  "Préparer un projet de verger": "نوجدو مشروع بستان",
+  "Confirmer la disponibilité de l’eau, la compatibilité du sol et le matériel existant. Documenter les observations de terrain avant de retenir une référence.": "تأكدو من توفر الماء وملاءمة التربة والمعدات الموجودة. سجلو ملاحظات الميدان قبل ما تختارو مرجع الحساب.",
+  "Préparer l’alimentation du troupeau": "نوجدو تغذية القطيع",
+  "Inventorier les fourrages produits et les aliments achetés ; préciser le poids et le type des animaux avant de choisir une norme.": "حسبو العلف المنتج فالضيعة والعلف المشترى، وحددو وزن ونوع الماشية قبل اختيار مرجع الحساب.",
+  "Conserver les observations de campagne": "نحفظو ملاحظات الموسم",
+  "Noter la conduite, l’âge de la plantation et les interventions. Les observations complètent les références chiffrées sans les remplacer.": "سجلو طريقة التدبير وعمر الغرس والتدخلات. الملاحظات كتكمّل المراجع الرقمية وما كتعوضهاش.",
+  "Préparer sa plantation": "نوجدو الغرس",
+  "Repérer la parcelle et son accès à l’eau. Faire confirmer l’adaptation au sol et au climat par un conseiller. Conserver les justificatifs et planifier les interventions.": "حددو القطعة وكيفاش كيوصلها الماء. خليو المستشار يأكد ملاءمة التربة والمناخ. حفظو الوثائق وبرمجو التدخلات.",
+  "Suivre son verger au fil des années": "نتبعو البستان عام من بعد عام",
+  "Tenir un carnet des interventions, des dépenses et des observations. La densité et l’âge des arbres sont utiles au conseiller pour interpréter les références.": "وجدو دفتر للتدخلات والمصاريف والملاحظات. كثافة الغرس وعمر الأشجار كيساعدو المستشار يفهم مراجع الحساب.",
+  "Organiser les ressources alimentaires": "ننظمو الموارد العلفية",
+  "Lister les fourrages disponibles et les achats nécessaires. Faire adapter la ration par un professionnel selon les animaux et leurs besoins.": "ديرو لائحة العلف المتوفر والمشتريات الضرورية. خليو مهني يحدد الحصة الغذائية حسب الماشية واحتياجاتها.",
+  "Préparer une visite d’élevage": "نوجدو زيارة لتربية الماشية",
+  "Rassembler l’effectif, les informations sur les bâtiments et les observations sanitaires. Demander conseil à un vétérinaire pour les questions de santé.": "جمعو عدد الرؤوس ومعلومات البنايات والملاحظات الصحية. فالمسائل الصحية، استاشرو الطبيب البيطري.",
+  "Enregistré": "تسجل",
+  "Prochaine étape :": "المرحلة الجاية:",
+  "Première année": "العام الأول",
+  "Étable": "الإسطبل",
+  "Bergerie": "حظيرة الغنم",
+  "Chèvrerie": "حظيرة الماعز",
+  "Rucher": "المنحل",
+  "Bâtiment": "البناية",
+  "plants": "شتلات",
+  "génisses": "عجلات",
+  "tête": "رأس",
+  "unité": "وحدة",
+  "Réseau": "الشبكة",
+  "bassin": "الحوض",
+  "Création / extension de verger": "إنشاء أو توسيع البستان",
+  "Province": "الإقليم",
+  "Puissance": "القوة",
+  "Agence agricole": "الوكالة الفلاحية",
+  "Administration": "الإدارة",
+  "goutte-à-goutte": "السقي بالتنقيط"
+};
+const originalText=new WeakMap(),originalAttributes=new WeakMap();let languageObserver=null,languageApplying=false;
+const normalizeFrench=s=>String(s).replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
+const languageLookup=new Map(Object.entries(DARIJA).map(([k,v])=>[normalizeFrench(k),v]));
+const languageEscape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const languagePatterns=[...new Set([...Object.keys(DARIJA),...Object.keys(DARIJA).map(k=>k.replace(/[’‘]/g,"'"))])].sort((a,b)=>b.length-a.length).map(s=>languageEscape(s).replace(/ /g,'\\s+'));
+const languageRegex=new RegExp('(?<![\\p{L}\\p{N}_-])(?:'+languagePatterns.join('|')+')(?![\\p{L}\\p{N}_-])','gu');
+function localize(value){const raw=String(value??'');if(currentLanguage!=='ary')return raw;const exact=languageLookup.get(normalizeFrench(raw));if(exact)return raw.replace(/\S[\s\S]*\S|\S/,exact);return raw.replace(languageRegex,match=>languageLookup.get(normalizeFrench(match))||match)}
+function languageControl(root,id){
+ if(!root||root.querySelector('.language-control'))return;
+ const el=document.createElement('div');el.className='language-control';el.dataset.i18nSkip='true';el.innerHTML='<label for="'+id+'">Langue / اللغة</label><select id="'+id+'" aria-label="Langue / اللغة"><option value="fr" lang="fr">Français</option><option value="ary" lang="ary-MA">العربية – الدارجة المغربية</option></select>';root.append(el);el.querySelector('select').value=currentLanguage;el.querySelector('select').addEventListener('change',e=>setLanguage(e.target.value));
+}
+function refreshNavPosition(){const header=document.querySelector('.top'),banner=document.querySelector('.banner');if(header)document.documentElement.style.setProperty('--nav-top',Math.ceil(header.offsetHeight+(banner?.offsetHeight||0))+'px')}
+function applyLanguage(){
+ if(languageApplying)return;languageApplying=true;languageObserver?.disconnect();
+ try{
+  document.documentElement.lang=currentLanguage==='ary'?'ary-MA':'fr';document.documentElement.dir=currentLanguage==='ary'?'rtl':'ltr';
+  languageControl(document.querySelector('.top'),'uiLanguage');if($('#modal').open)languageControl($('#modal'),'uiLanguageDialog');
+  document.querySelectorAll('.language-control select').forEach(el=>{el.value=currentLanguage});
+  // Toute option sans value explicite doit garder sa valeur française avant traduction.
+  for(const root of [$('#app'),$('#modal'),$('#toast'),$('#storage')]){
+   if(!root)continue;root.querySelectorAll('option').forEach(option=>{if(!option.hasAttribute('value'))option.value=option.value});
+   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
+   while(node=walker.nextNode()){
+    if(!node.data.trim()||node.parentElement?.closest('script,style,textarea,input,.language-control,[data-i18n-skip],[data-user-text],#farmerSelect'))continue;
+    let rec=originalText.get(node);if(!rec||node.data!==rec.output)rec={source:node.data,output:node.data};const next=localize(rec.source);if(node.data!==next)node.data=next;rec.output=next;originalText.set(node,rec);
+   }
+   root.querySelectorAll('[placeholder],[aria-label],[title]').forEach(el=>{
+    if(el.closest('.language-control,[data-i18n-skip]'))return;let records=originalAttributes.get(el)||{};
+    for(const name of ['placeholder','aria-label','title']){if(!el.hasAttribute(name))continue;const value=el.getAttribute(name);let rec=records[name];if(!rec||rec.output!==value)rec={source:value,output:value};const next=localize(rec.source);if(next!==value)el.setAttribute(name,next);rec.output=next;records[name]=rec}originalAttributes.set(el,records);
+   });
+  }
+  document.querySelectorAll('input:not([type=number]):not([type=email]):not([type=password]):not([type=tel]):not([type=date]),textarea').forEach(el=>{if(!el.hasAttribute('dir'))el.dir='auto'});refreshNavPosition();
+ }finally{languageApplying=false;observeLanguage()}
+}
+function observeLanguage(){if(!languageObserver)return;for(const id of ['app','modal','toast','storage'])languageObserver.observe(document.getElementById(id),{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['placeholder','aria-label','title','open']})}
+function setLanguage(language){if(!['fr','ary'].includes(language))return;currentLanguage=language;try{localStorage.setItem(LANGUAGE_KEY,language)}catch{}applyLanguage()}
+languageObserver=new MutationObserver(applyLanguage);observeLanguage();window.addEventListener('resize',refreshNavPosition);
+
+render();applyLanguage();
 </script></body></html>
