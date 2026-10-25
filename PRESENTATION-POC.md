@@ -1,4 +1,4 @@
-# AgriImpact — présentation orale, 4 minutes maximum
+# Agri-Impact — présentation orale, 4 minutes maximum
 
 **Environ 3 minutes de parole et 45 secondes de navigation.** Les indications à l’écran ne sont pas à lire. Youssef et Salma sont des personnages fictifs. Préparer une simulation enregistrée avant de commencer.
 
@@ -12,7 +12,7 @@
 >
 > Demain, sa conseillère change. Youssef espère que la personne qui le recevra connaîtra déjà son histoire, les efforts accomplis et ce qui reste à construire.
 >
-> C’est cette continuité qu’AgriImpact veut préserver.
+> C’est cette continuité qu’Agri-Impact veut préserver.
 >
 > Youssef retrouve son profil, son exploitation et les coordonnées de Salma, sa conseillère. L’import du système existant est simulé. Il peut demander une correction de son profil, soumise à validation du conseiller. »
 

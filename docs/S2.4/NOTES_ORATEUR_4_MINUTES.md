@@ -1,8 +1,8 @@
-# Notes orateur — Pitch AgriImpact (4 minutes)
+# Notes orateur — Pitch Agri-Impact (4 minutes)
 
 ## Slide 1
 
-Imaginez un agriculteur qui doit raconter à nouveau son exploitation à chaque nouveau projet. Ses terres, ses activités et ses échanges avec le conseiller existent, mais restent dispersés. AgriImpact propose de relier ces informations pour préparer la suite sans perdre la mémoire du passé. Voici notre prototype de démonstration. [25 secondes]
+Imaginez un agriculteur qui doit raconter à nouveau son exploitation à chaque nouveau projet. Ses terres, ses activités et ses échanges avec le conseiller existent, mais restent dispersés. Agri-Impact propose de relier ces informations pour préparer la suite sans perdre la mémoire du passé. Voici notre prototype de démonstration. [25 secondes]
 
 ## Slide 2
 

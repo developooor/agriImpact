@@ -1,4 +1,4 @@
-# AgriImpact — Atelier S2.4
+# Agri-Impact — Atelier S2.4
 
 ## Pièces à joindre
 
@@ -18,7 +18,7 @@ Autres bénéfices, en une phrase : améliorer la clarté du parcours pour l’a
 
 ## Structure « Ancre – Preuve – Ask »
 
-ANCRE — Un agriculteur ne devrait pas devoir reconstituer l’histoire de son exploitation à chaque nouveau projet. AgriImpact relie son profil, ses activités passées et son conseiller pour préparer la suite avec un contexte partagé.
+ANCRE — Un agriculteur ne devrait pas devoir reconstituer l’histoire de son exploitation à chaque nouveau projet. Agri-Impact relie son profil, ses activités passées et son conseiller pour préparer la suite avec un contexte partagé.
 
 PREUVE — Le POC montre un parcours réel de démonstration : Youssef consulte son exploitation, choisit Olivier, examine le prévisionnel Arbequina pour un hectare irrigué, enregistre sa simulation et confirme sa demande d’accompagnement. Salma retrouve les données envoyées et prend en charge la demande. Les justificatifs et comptes rendus peuvent être conservés dans le dossier documentaire. Les aides sont conditionnelles et les montants restent des hypothèses à valider. Aucun ROI n’est encore mesuré.
 
