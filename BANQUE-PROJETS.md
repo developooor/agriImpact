@@ -1,13 +1,11 @@
-# Banque de projets par filière
+# Banque de projets : ordre de consultation personnalisé
 
-La banque présente une mosaïque inspirée de la référence visuelle fournie : arboriculture, maraîchage plein champ, cultures fourragères, maraîchage sous serre, céréales, cultures industrielles, production animale, autres cultures, oléagineuses, fruits rouges et nouvelles cultures.
+La mosaïque de filières et ses compteurs sont remplacés par des cartes de projets classées selon le profil consulté. Le premier projet occupe plus de place. Les quinze fiches restent accessibles avec les filtres de région, recherche et grande catégorie.
 
-Les compteurs dénombrent uniquement les fiches réellement présentes dans le catalogue, après recherche et sélection de la grande catégorie. Les filières sans fiche restent visibles avec zéro et « Catalogue à enrichir ». Les valeurs de l’illustration ne sont pas importées comme données du prototype.
+Le classement utilise, par ordre de priorité, l’activité déjà présente dans l’historique du demandeur, une filière déjà pratiquée et les équipements d’irrigation déclarés. Chaque projet affiche une raison. Il s’agit d’une affinité documentaire, pas d’une aptitude agronomique, d’un score de rentabilité ou d’une décision de crédit. Aucun classement régional n’est inventé. Pour le scénario de démonstration Youssef, Olivier est explicitement prioritaire et apparaît en première position dans la carte la plus grande. Cette priorité éditoriale est affichée comme telle ; elle ne prétend pas être une validation agronomique. Les autres projets et les autres profils conservent l’ordre fondé sur les données déclarées.
 
-Les quinze fiches existantes sont conservées. La tomate n’ayant pas de conduite plein champ / serre validée, elle apparaît dans une entrée complémentaire « Maraîchage à préciser ». Un champ `bankGroup` explicite permet de classer ultérieurement une fiche dans une filière ; une famille inconnue reste accessible dans « Autres cultures ».
+La région reste un contexte sélectionnable, prérempli depuis le profil, conservé dans la simulation, la demande et le PDF. Elle ne modifie pas automatiquement les rendements, les prix ou les aides FDA.
 
-La région est préremplie depuis le profil consulté et modifiable. Elle est affichée dans la liste, transmise au simulateur, conservée dans la simulation et sa copie de demande d’accompagnement, et incluse dans le PDF. Le changement d’agriculteur réinitialise ce contexte. Les anciennes simulations sans région restent lisibles.
+La concurrence n’est plus saisie par l’utilisateur : elle est lue, si disponible, dans `farmer.marketSignals[projectId]` avec les champs texte `value`, `source`, `date`. Ce point d’entrée représente la future donnée importée ; aucun connecteur n’est actif. En l’absence de source, afficher « Non disponible » et « Source externe non connectée ». Conserver la provenance dans la copie de simulation, sans impact chiffré.
 
-Aucune règle d’aptitude régionale n’est encore définie : la sélection de région ne retire pas de projets et ne modifie ni les prix ni les règles FDA. Les compteurs ne constituent pas un nombre de projets agronomiquement adaptés à la région.
-
-Validation : `node --test tests/*.test.cjs` ; parcours navigateur filière → région → simulation → copie de demande → téléchargement PDF, recherche, affichage mobile et darija.
+Pitch proposé : « Youssef retrouve des projets proches de ses activités et des équipements déclarés. Cet ordre l’aide à explorer ; le conseiller confirme ensuite l’adaptation technique, notamment au sol et à l’eau. »
