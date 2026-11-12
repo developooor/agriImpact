@@ -18,3 +18,9 @@ Sur instruction du porteur, les nouveaux calculs Arbequina irrigués peuvent êt
 Le choix de variété suit la superficie et précède le stade. Seule Arbequina dispose de ces références : Picholine marocaine, Haouzia, Menara et Autre restent sans montant. Le bour reste sans extrapolation. Le moteur FDA conditionnel reste distinct de cet exemple.
 
 La pluie est une valeur numérique en mm/an ; zéro est permis, une valeur inconnue peut rester vide. Aucun coefficient de rendement n’est inventé. Le résultat montre dépenses et entrées en 2/3 de page, en rouge et vert clairs, les hypothèses et le calcul en dessous, et la synthèse débit/crédit/solde dans le tiers droit. Sur mobile, ces zones s’empilent. Le solde fourni de l’année 3 est conservé, sans prétendre résoudre son écart avec les extrêmes indépendants.
+
+## Précipitations de référence à Azrou
+
+Le formulaire préremplit 664 mm/an pour la commune d’Azrou en Fès-Meknès, comme normale historique indicative fournie par le porteur. La source primaire et la période climatologique restent à confirmer. Cette valeur n’est pas une prévision météorologique pour 2027 et n’est pas appliquée aux autres communes ou régions.
+
+La valeur peut être modifiée ou laissée vide. Une modification de pluie est enregistrée comme saisie utilisateur ; une modification de localisation retire la normale automatique si elle n’est plus applicable. La nature et la provenance sont conservées dans la simulation et ses exports. Aucun coefficient rendement/pluie ou prix/pluie n’est inventé.
