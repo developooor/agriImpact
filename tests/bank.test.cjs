@@ -20,3 +20,13 @@ test('Sous-groupes issus du catalogue et du type choisi, y compris après import
  assert.deepEqual(Array.from(api.bankFamilies(ps,'Plantations')),['Arboriculture','Fourrages']);
  assert.deepEqual(Array.from(api.bankFamilies(ps,'Élevage')),['Aquaculture','Bovins']);
 });
+
+test('Concurrence faible : hypothèse limitée à Olivier/Youssef dans la région du profil',()=>{
+ const f={id:'f1',region:'Fès-Meknès'},p={id:'p4'};
+ assert.equal(api.externalCompetition(f,p).scenario,true);
+ assert.match(api.externalCompetition(f,p).source,/Hypothèse/);
+ assert.equal(api.externalCompetition(f,p,'Souss-Massa').value,'Non disponible');
+ assert.equal(api.externalCompetition({...f,id:'f2'},p).value,'Non disponible');
+ const actual=api.externalCompetition({...f,marketSignals:{p4:{value:'Forte',level:'high',source:'SI partenaire'}}},p);
+ assert.equal(actual.value,'Forte');assert.equal(actual.scenario,false);
+});

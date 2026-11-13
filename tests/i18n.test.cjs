@@ -9,7 +9,7 @@ const start=html.indexOf('const DARIJA=');
 const end=html.indexOf('\nfunction languageControl(',start);
 assert.ok(start>=0&&end>start,'Le module de traduction doit être présent');
 const sandbox={currentLanguage:'ary'};
-vm.runInNewContext(html.slice(start,end)+';globalThis.api={localize,DARIJA};',sandbox);
+vm.runInNewContext(html.slice(start,end)+';globalThis.api={localize,DARIJA,isolateNumericRuns};',sandbox);
 const {localize}=sandbox.api;
 test('Connexion et demande d’accompagnement lisibles en darija',()=>{
  assert.equal(localize('Se connecter'),'دخول للحساب');
@@ -36,4 +36,14 @@ test('Texte arabe saisi librement préservé',()=>{
 });
 test('Tous les libellés de darija ont une traduction arabe non vide',()=>{
  assert.ok(Object.keys(sandbox.api.DARIJA).length>700);for(const [key,value] of Object.entries(sandbox.api.DARIJA))assert.match(value,/[\u0600-\u06ff]/,key);
+});
+
+test('Isoler les groupes de chiffres et les dates sans inverser ni modifier leurs valeurs',()=>{
+ const text='المساحة 350 000 هكتار قبل 31/12/2027 والمبلغ 47.000 MAD';
+ const output=sandbox.api.isolateNumericRuns(text);
+ assert.ok(output.includes('\u2066350 000\u2069'));
+ assert.ok(output.includes('\u206631/12/2027\u2069'));
+ assert.ok(output.includes('\u206647.000 MAD\u2069'));
+ assert.equal(output.replace(/[\u2066\u2069]/g,''),text);
+ assert.equal(sandbox.api.isolateNumericRuns(output),output);
 });

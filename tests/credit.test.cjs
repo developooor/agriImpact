@@ -1,0 +1,7 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');const vm=require('node:vm');
+const html=fs.readFileSync(path.join(__dirname,'../agriimpact-poc.html'),'utf8'),a=html.indexOf('function calculateCredit('),b=html.indexOf('function openCreditSimulation(',a),sandbox={};
+vm.runInNewContext(html.slice(a,b)+';globalThis.calculate=calculateCredit;',sandbox);
+test('Un crédit à taux zéro rembourse seulement le capital',()=>{const c=sandbox.calculate(60000,0,60);assert.equal(c.monthly,1000);assert.equal(c.interest,0);assert.equal(c.total,60000)});
+test('Mensualité constante : amortissement intégral du capital, sans frais inventés',()=>{const c=sandbox.calculate(62000,5,60);let balance=62000,interest=0;for(let m=0;m<60;m++){const paidInterest=balance*5/1200;interest+=paidInterest;balance-=c.monthly-paidInterest}assert(Math.abs(balance)<1e-6);assert(Math.abs(interest-c.interest)<1e-6);assert(Math.abs(c.total-c.monthly*60)<1e-8)});
+test('Un taux très faible reste stable et une durée plus longue augmente les intérêts',()=>{const tiny=sandbox.calculate(47000,1e-10,60);assert(Math.abs(tiny.monthly-47000/60)<1e-6);assert(sandbox.calculate(47000,5,120).interest>sandbox.calculate(47000,5,60).interest)});
+test('Refuser un capital invalide, un taux négatif et une durée non entière',()=>{for(const params of [[0,5,60],[-1,5,60],[NaN,5,60],[47000,-1,60],[47000,101,60],[47000,5,0],[47000,5,2.5],[47000,5,601]])assert.throws(()=>sandbox.calculate(...params))});
